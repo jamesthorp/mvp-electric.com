@@ -1,0 +1,25 @@
+# MVP Electric website: working rules
+
+The live site (https://mvp-electric.com) is WordPress + Elementor Pro + Yoast SEO + LiteSpeed Cache.
+Edit it with `tools/wp.py`, which uses the WordPress REST API. Login comes from the `WP_USER` and
+`WP_APP_PASSWORD` environment variables (a WordPress Application Password). The
+`wordpress-plugin/mvp-claude-connector` plugin must be active on the site for Elementor and Yoast edits.
+
+James (the owner) gives instructions in plain English. Follow this every time:
+
+1. `python3 tools/wp.py pull <slug>` before changing a page, so you edit the live version.
+2. Edit `site-snapshots/<slug>/elementor.json` (Elementor's layout: nested sections, columns and
+   widgets; text lives in `settings`, e.g. `title`, `editor`, `text`). Change only what was asked.
+3. Show James a short before/after summary of the change. For anything bigger than a text or SEO
+   tweak, get his OK before pushing.
+4. `python3 tools/wp.py push <slug>` (it saves a backup to `site-snapshots/_backups/` first), then
+   fetch the live page and confirm the change shows up.
+5. New pages are always created as **drafts** (`create`). Publish only after James approves the preview.
+6. Commit the snapshots and push, so git history is the undo log.
+
+To undo: copy the `elementor.json` from the relevant `_backups/` folder (or an older git commit)
+back into `site-snapshots/<slug>/` and push it.
+
+Never publish fake reviews, ratings or stats. The service area is Multnomah, Washington and Clackamas
+counties only: no Salem, no Washington state. Phone/text: (503) 922-6873. CCB #253767.
+The SEO plan and the copy waiting to go live are in `seo/`. Design options are in `design/`.
