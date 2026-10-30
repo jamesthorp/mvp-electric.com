@@ -1,0 +1,23 @@
+# MVP Electric
+
+> MVP Electric is a licensed, bonded and insured electrical contractor (Oregon CCB #253767) owned and operated by James Thorp. It serves residential and commercial customers across the Portland, Oregon metro area: Multnomah County, Washington County and Clackamas County. It does not serve Salem or Washington state. Call or text (503) 922-6873 for a free estimate.
+
+## Service area
+- Multnomah County: Portland, Gresham, Troutdale
+- Washington County: Beaverton, Hillsboro, Tigard, Tualatin, Sherwood, Forest Grove, Cornelius
+- Clackamas County: Lake Oswego, West Linn, Oregon City, Happy Valley, Milwaukie, Wilsonville, Clackamas, Gladstone, Canby
+
+## Services
+- [Electrical repair & troubleshooting](https://mvp-electric.com/general-electrical-services/): outlets, GFCI, switches, dimmers, can lights, circuits, diagnostics
+- [EV charger installation](https://mvp-electric.com/ev-charging-station-installation/): Level 2 home and commercial chargers, permit included
+- [Lighting retrofits](https://mvp-electric.com/lighting-retrofits/): LED upgrades for homes and businesses
+- [Solar panel installation](https://mvp-electric.com/solar-panel-installation/): solar and battery backup
+- [New construction electrical](https://mvp-electric.com/new-construction-electrical-work/): new homes, additions, working with general contractors
+- Panel upgrades and service changes
+- Whole-home generator installation and generator interlock/inlet installs
+
+## Contact
+- Phone / text: (503) 922-6873
+- Email: james@mvp-electric.com
+- [Request a free estimate](https://mvp-electric.com/contact-us/)
+- [Customer reviews](https://mvp-electric.com/reviews/)

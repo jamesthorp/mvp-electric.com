@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MVP Electric Homepage Options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+<style>
+/* ---------- Option themes ---------- */
+body[data-opt="a"]{ /* Bold & Trusted: navy + electric yellow */
+  --bg:#ffffff; --surface:#f3f5f9; --ink:#0d1b2a; --muted:#4a5868;
+  --brand:#0b2545; --brand-ink:#ffffff; --accent:#ffc914; --accent-ink:#0b2545;
+  --hero-bg:linear-gradient(120deg,#0b2545 0%,#13315c 60%,#1d4e89 100%); --hero-ink:#fff;
+  --radius:10px; --display:'Inter',system-ui,sans-serif; --display-weight:800; --display-case:none;
+}
+body[data-opt="b"]{ /* Clean & Friendly: light, photo-forward, teal */
+  --bg:#fbfaf7; --surface:#ffffff; --ink:#1f2933; --muted:#5b6670;
+  --brand:#0f766e; --brand-ink:#ffffff; --accent:#0f766e; --accent-ink:#ffffff;
+  --hero-bg:#eef6f4; --hero-ink:#1f2933;
+  --radius:18px; --display:'Fraunces',Georgia,serif; --display-weight:700; --display-case:none;
+}
+body[data-opt="c"]{ /* Rugged Pro: charcoal + amber, trade-truck feel */
+  --bg:#f4f1ec; --surface:#ffffff; --ink:#1a1a1a; --muted:#555;
+  --brand:#1c1c1c; --brand-ink:#ffffff; --accent:#f59e0b; --accent-ink:#1a1a1a;
+  --hero-bg:#1c1c1c; --hero-ink:#fff;
+  --radius:4px; --display:'Barlow Condensed','Arial Narrow',sans-serif; --display-weight:800; --display-case:uppercase;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;padding-bottom:72px}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1140px;margin:0 auto;padding:0 16px}
+h1,h2,h3{font-family:var(--display);font-weight:var(--display-weight);text-transform:var(--display-case);line-height:1.1;margin:0 0 .5em;letter-spacing:-.01em}
+body[data-opt="c"] h1,body[data-opt="c"] h2{letter-spacing:.01em}
+
+/* Option picker (mockup only — not part of the real site) */
+.picker{position:sticky;top:0;z-index:50;background:#111;color:#fff;font-size:14px}
+.picker .wrap{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.picker span{opacity:.7;margin-right:4px}
+.picker button{font:inherit;border:1px solid #444;background:#222;color:#fff;padding:6px 12px;border-radius:999px;cursor:pointer}
+.picker button[aria-pressed="true"]{background:#fff;color:#111;border-color:#fff}
+.picker small{opacity:.65;flex-basis:100%}
+
+/* Header */
+.topbar{background:var(--brand);color:var(--brand-ink);font-size:13px}
+.topbar .wrap{display:flex;justify-content:space-between;gap:12px;padding-top:6px;padding-bottom:6px;flex-wrap:wrap}
+header.site{background:var(--surface);border-bottom:1px solid rgba(0,0,0,.08)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;text-decoration:none}
+.logo .bolt{width:36px;height:36px;border-radius:var(--radius);background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:20px}
+nav.main{display:flex;gap:22px;font-weight:600;font-size:15px}
+nav.main a{text-decoration:none;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:700;text-decoration:none;padding:13px 20px;border-radius:var(--radius);border:2px solid transparent;font-size:16px;white-space:nowrap}
+.btn-accent{background:var(--accent);color:var(--accent-ink)}
+.btn-ghost{border-color:currentColor}
+.btn-brand{background:var(--brand);color:var(--brand-ink)}
+@media (max-width:860px){nav.main{display:none}.header-cta .btn-ghost{display:none}}
+
+/* Hero */
+.hero{background:var(--hero-bg);color:var(--hero-ink);overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:64px;padding-bottom:64px}
+.hero h1{font-size:clamp(34px,5vw,58px)}
+.hero p.lead{font-size:clamp(17px,2vw,20px);opacity:.9;max-width:36em}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 18px}
+.trust{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px;font-weight:600;opacity:.95;padding:0;margin:0;list-style:none}
+.trust li::before{content:"✓ ";color:var(--accent)}
+.hero-photo{position:relative}
+.hero-photo img{border-radius:calc(var(--radius) * 1.4);aspect-ratio:4/3;object-fit:cover;width:100%;box-shadow:0 20px 50px rgba(0,0,0,.25)}
+.badge{position:absolute;left:-14px;bottom:-14px;background:var(--surface);color:var(--ink);border-radius:var(--radius);padding:12px 16px;box-shadow:0 10px 30px rgba(0,0,0,.18);font-size:14px}
+.badge strong{display:block;font-size:22px;color:var(--brand)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr;padding-top:36px;padding-bottom:40px}.badge{left:12px}}
+
+/* Option B: centered hero with photo strip */
+body[data-opt="b"] .hero .wrap{grid-template-columns:1fr 1fr}
+@media (max-width:860px){body[data-opt="b"] .hero .wrap{grid-template-columns:1fr}}
+body[data-opt="b"] .hero h1 em{font-style:normal;color:var(--brand)}
+/* Option C: full-bleed photo hero */
+body[data-opt="c"] .hero{background:linear-gradient(90deg,rgba(20,20,20,.94) 0%,rgba(20,20,20,.8) 55%,rgba(20,20,20,.35) 100%),url("https://mvp-electric.com/wp-content/uploads/2024/11/electric_panel.jpg") center/cover}
+body[data-opt="c"] .hero .wrap{grid-template-columns:1fr;padding-top:90px;padding-bottom:90px}
+body[data-opt="c"] .hero-photo{display:none}
+body[data-opt="c"] .hero h1{font-size:clamp(44px,7vw,84px);max-width:12em}
+body[data-opt="c"] .hero h1 span{color:var(--accent)}
+body[data-opt="c"] .stripe{height:10px;background:repeating-linear-gradient(-45deg,var(--accent) 0 18px,#1c1c1c 18px 36px)}
+body:not([data-opt="c"]) .stripe{display:none}
+
+/* Sections */
+section{padding:64px 0}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--brand);margin-bottom:8px}
+body[data-opt="c"] .eyebrow{color:#b45309}
+.section-head{max-width:640px;margin-bottom:32px}
+.section-head h2{font-size:clamp(28px,3.6vw,42px)}
+.section-head p{color:var(--muted);margin:0}
+
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.card{background:var(--surface);border-radius:var(--radius);padding:22px;border:1px solid rgba(0,0,0,.07);text-decoration:none;display:block;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.08)}
+.card .ico{width:44px;height:44px;border-radius:var(--radius);background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:22px;margin-bottom:14px}
+body[data-opt="b"] .card .ico{background:#d7efe9;color:var(--brand)}
+.card h3{font-size:20px;margin-bottom:6px}
+body[data-opt="c"] .card h3{font-size:24px}
+.card p{color:var(--muted);margin:0 0 10px;font-size:15px}
+.card .more{font-weight:700;color:var(--brand);font-size:14px}
+body[data-opt="c"] .card{border-top:4px solid var(--accent)}
+
+.why{background:var(--surface)}
+body[data-opt="a"] .why{background:var(--surface)}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
+.why-grid h3{font-size:19px;margin-bottom:4px}
+body[data-opt="c"] .why-grid h3{font-size:24px}
+.why-grid p{color:var(--muted);margin:0;font-size:15px}
+.why-grid .num{font-family:var(--display);font-weight:800;font-size:28px;color:var(--brand)}
+body[data-opt="c"] .why-grid .num{color:#b45309}
+
+.reviews .grid{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+blockquote{margin:0;background:var(--surface);border-radius:var(--radius);padding:24px;border:1px solid rgba(0,0,0,.07);display:flex;flex-direction:column;gap:12px}
+blockquote .stars{color:#f5a400;letter-spacing:2px}
+blockquote p{margin:0}
+blockquote footer{font-weight:700;font-size:14px;color:var(--muted)}
+.review-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+
+.area{background:var(--brand);color:var(--brand-ink)}
+.area .eyebrow{color:var(--accent)}
+.area .section-head p{color:inherit;opacity:.8}
+.counties{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.county{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:var(--radius);padding:20px;text-decoration:none;display:block}
+.county h3{font-size:21px;margin-bottom:6px}
+.county p{margin:0;opacity:.85;font-size:15px}
+.area .note{margin-top:20px;opacity:.75;font-size:14px}
+
+.faq details{background:var(--surface);border-radius:var(--radius);border:1px solid rgba(0,0,0,.07);padding:16px 20px;margin-bottom:10px}
+.faq summary{font-weight:700;cursor:pointer}
+.faq details p{color:var(--muted);margin:10px 0 0}
+
+.final{text-align:center}
+.final .ctas{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+.final h2{font-size:clamp(30px,4vw,46px)}
+
+footer.site{background:#0f1115;color:#c9ced6;font-size:14px;padding:36px 0}
+footer.site .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+
+/* Sticky mobile call/text bar */
+.mobilebar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:rgba(0,0,0,.15);box-shadow:0 -6px 20px rgba(0,0,0,.12)}
+.mobilebar a{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10px 4px;text-decoration:none;font-weight:700;font-size:14px;background:var(--surface)}
+.mobilebar a.primary{background:var(--accent);color:var(--accent-ink)}
+.mobilebar a .i{font-size:20px;line-height:1}
+@media (min-width:861px){.mobilebar{display:none}body{padding-bottom:0}}
+</style>
+</head>
+<body data-opt="a">
+
+<div class="picker" role="toolbar" aria-label="Design option">
+  <div class="wrap">
+    <span>Preview:</span>
+    <button data-o="a" aria-pressed="true">A · Bold &amp; Trusted</button>
+    <button data-o="b" aria-pressed="false">B · Clean &amp; Friendly</button>
+    <button data-o="c" aria-pressed="false">C · Rugged Pro</button>
+    <small id="desc"></small>
+  </div>
+</div>
+
+<div class="topbar"><div class="wrap">
+  <span>Licensed · Bonded · Insured · Oregon CCB #253767</span>
+  <span>Serving Washington, Clackamas &amp; Multnomah Counties</span>
+</div></div>
+
+<header class="site"><div class="wrap">
+  <a class="logo" href="#"><span class="bolt" aria-hidden="true">⚡</span>MVP Electric</a>
+  <nav class="main" aria-label="Main">
+    <a href="#services">Services</a><a href="#area">Service Areas</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a><a href="#">About</a>
+  </nav>
+  <div class="header-cta" style="display:flex;gap:10px">
+    <a class="btn btn-ghost" href="sms:+15039226873">Text Us</a>
+    <a class="btn btn-accent" href="tel:+15039226873">(503) 922-6873</a>
+  </div>
+</div></header>
+
+<section class="hero" style="padding:0">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow" id="eyebrow" style="color:var(--accent)">Portland Metro Electrician</div>
+      <h1 id="h1">Licensed Electrician Serving the Portland Metro Area</h1>
+      <p class="lead">Repairs, panel upgrades, EV chargers and generators for homes and businesses in Washington, Clackamas &amp; Multnomah counties. Honest bids, clean work, passes inspection.</p>
+      <div class="ctas">
+        <a class="btn btn-accent" href="tel:+15039226873">📞 Call (503) 922-6873</a>
+        <a class="btn btn-ghost" href="sms:+15039226873">💬 Text a Photo of the Job</a>
+      </div>
+      <ul class="trust"><li>Free estimates</li><li>Permit included in bid</li><li>Owner-operated</li><li>Residential &amp; commercial</li></ul>
+    </div>
+    <div class="hero-photo">
+      <img src="https://mvp-electric.com/wp-content/uploads/2024/11/electric_panel.jpg" alt="Electrical panel installed by MVP Electric">
+      <div class="badge"><strong>★★★★★</strong>Real reviews from Portland-area customers</div>
+    </div>
+  </div>
+</section>
+<div class="stripe"></div>
+
+<section id="services"><div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">What we do</div>
+    <h2>Electrical Services for Homes &amp; Businesses</h2>
+    <p>From a dead outlet to a full service upgrade, one licensed electrician handles the bid, the permit and the work.</p>
+  </div>
+  <div class="grid">
+    <a class="card" href="#"><div class="ico">🔧</div><h3>Repair &amp; Troubleshooting</h3><p>Dead outlets, tripping breakers, GFCIs, switches, flickering lights.</p><span class="more">Learn more →</span></a>
+    <a class="card" href="#"><div class="ico">⚡</div><h3>Panel Upgrades</h3><p>100A to 200A upgrades and service changes, with room for EVs and heat pumps.</p><span class="more">Learn more →</span></a>
+    <a class="card" href="#"><div class="ico">🔌</div><h3>Generators &amp; Interlocks</h3><p>Whole-home standby generators and portable generator inlets.</p><span class="more">Learn more →</span></a>
+    <a class="card" href="#"><div class="ico">🚗</div><h3>EV Charger Installation</h3><p>Level 2 home and business chargers. Permit included.</p><span class="more">Learn more →</span></a>
+    <a class="card" href="#"><div class="ico">💡</div><h3>Lighting &amp; LED Retrofits</h3><p>Recessed cans, fixtures, dimmers and commercial LED upgrades.</p><span class="more">Learn more →</span></a>
+    <a class="card" href="#"><div class="ico">☀️</div><h3>Solar &amp; Battery Backup</h3><p>Keep the lights on when the grid goes down.</p><span class="more">Learn more →</span></a>
+    <a class="card" href="#"><div class="ico">🏗️</div><h3>New Construction &amp; Remodels</h3><p>ADUs, additions and new homes. We work with your GC.</p><span class="more">Learn more →</span></a>
+  </div>
+</div></section>
+
+<section class="why"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Why MVP Electric</div><h2>Work With the Owner, Not a Call Center</h2></div>
+  <div class="why-grid">
+    <div><div class="num">01</div><h3>You deal with James</h3><p>The owner does your bid and your work, so nothing gets lost in a handoff.</p></div>
+    <div><div class="num">02</div><h3>Fast replies</h3><p>Call or text and hear back quickly, often with a same-day visit for the estimate.</p></div>
+    <div><div class="num">03</div><h3>Up-front pricing</h3><p>The permit is in the bid, and the price doesn't change halfway through.</p></div>
+    <div><div class="num">04</div><h3>Done to code</h3><p>Permitted, inspected and passed the first time.</p></div>
+  </div>
+</div></section>
+
+<section id="reviews" class="reviews"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Reviews</div><h2>What Our Customers Say</h2></div>
+  <div class="grid">
+    <blockquote><span class="stars">★★★★★</span><p>“James installed a generator interlock system and ran conduit for a custom generator receptacle with excellent workmanship and attention to detail… Everything passed inspection, looks great, works perfectly.”</p><footer>Joel K. · Generator interlock</footer></blockquote>
+    <blockquote><span class="stars">★★★★★</span><p>“Very quick to respond. Came out to assess the job same day. Emailed an estimate same day and completed the work just a few days later… He included the charger and permit in his bid.”</p><footer>Bob C. · EV charger install</footer></blockquote>
+    <blockquote><span class="stars">★★★★★</span><p>“From installing a new panel to troubleshooting electrical issues, he's consistently delivered high-quality work. Always punctual, professional, and efficient.”</p><footer>Sean M. · Panel &amp; repairs</footer></blockquote>
+  </div>
+  <div class="review-ctas"><a class="btn btn-brand" href="#">Read all reviews</a><a class="btn btn-ghost" href="#">Leave a Google review</a></div>
+</div></section>
+
+<section id="area" class="area"><div class="wrap">
+  <div class="section-head"><div class="eyebrow">Service area</div><h2>Proudly Serving the Portland Metro</h2><p>Licensed electrical work across three counties on the Oregon side of the metro.</p></div>
+  <div class="counties">
+    <a class="county" href="#"><h3>Washington County →</h3><p>Beaverton · Hillsboro · Tigard · Tualatin · Sherwood · Forest Grove · Cornelius</p></a>
+    <a class="county" href="#"><h3>Clackamas County →</h3><p>Lake Oswego · West Linn · Oregon City · Happy Valley · Milwaukie · Wilsonville · Canby</p></a>
+    <a class="county" href="#"><h3>Multnomah County →</h3><p>Portland · Gresham · Troutdale</p></a>
+  </div>
+  <p class="note">Not sure if you're in our area? Text us your ZIP code.</p>
+</div></section>
+
+<section id="faq" class="faq"><div class="wrap" style="max-width:820px">
+  <div class="section-head"><div class="eyebrow">FAQ</div><h2>Common Questions</h2></div>
+  <details open><summary>Do you offer free estimates?</summary><p>Yes. Call or text (503) 922-6873, or send photos of the job, and we'll get you a bid.</p></details>
+  <details><summary>Are you licensed and insured?</summary><p>Yes. MVP Electric is a licensed, bonded and insured Oregon electrical contractor, CCB #253767.</p></details>
+  <details><summary>Do you pull permits?</summary><p>Yes. The permit is included in your bid and every permitted job is inspected.</p></details>
+  <details><summary>What areas do you serve?</summary><p>Washington, Clackamas and Multnomah counties. We don't serve Salem or Washington state.</p></details>
+</div></section>
+
+<section class="final why"><div class="wrap">
+  <h2>Ready to Get Your Project Done?</h2>
+  <p style="color:var(--muted)">Call or text <strong>(503) 922-6873</strong>. Most messages get a reply the same day.</p>
+  <div class="ctas">
+    <a class="btn btn-accent" href="tel:+15039226873">📞 Call Now</a>
+    <a class="btn btn-brand" href="sms:+15039226873">💬 Text Us</a>
+    <a class="btn btn-ghost" href="#">Request a Free Estimate</a>
+  </div>
+</div></section>
+
+<footer class="site"><div class="wrap">
+  <div><strong style="color:#fff">MVP Electric</strong><br>(503) 922-6873 · james@mvp-electric.com<br>Oregon CCB #253767</div>
+  <div>Serving Washington, Clackamas &amp; Multnomah Counties, OR<br>© 2026 MVP Electric. All rights reserved.</div>
+</div></footer>
+
+<nav class="mobilebar" aria-label="Quick contact">
+  <a class="primary" href="tel:+15039226873"><span class="i">📞</span>Call</a>
+  <a href="sms:+15039226873"><span class="i">💬</span>Text</a>
+  <a href="#"><span class="i">📝</span>Estimate</a>
+</nav>
+
+<script>
+const desc={
+  a:"A: Navy + electric yellow. Confident and classic. The closest to your current brand, but much stronger.",
+  b:"B: Warm, light and friendly with teal accents and a serif headline. Aimed at homeowners; feels approachable.",
+  c:"C: Charcoal + amber with a full-photo hero and hazard stripe. Bold, contractor and trade-truck feel."
+};
+const h1={
+  a:"Licensed Electrician Serving the Portland Metro Area",
+  b:"Your <em>Local</em> Portland-Area Electrician",
+  c:"Portland Metro <span>Electrician</span>"
+};
+function pick(o){
+  document.body.dataset.opt=o;
+  document.querySelectorAll('.picker button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.o===o));
+  document.getElementById('desc').textContent=desc[o];
+  document.getElementById('h1').innerHTML=h1[o];
+  document.getElementById('eyebrow').textContent=o==='c'?'Licensed · Bonded · Insured':'Portland Metro Electrician';
+  try{history.replaceState(null,'','#'+o)}catch(e){}
+}
+document.querySelectorAll('.picker button').forEach(b=>b.onclick=()=>pick(b.dataset.o));
+pick(['a','b','c'].includes(location.hash.slice(1))?location.hash.slice(1):'a');
+</script>
+</body>
+</html>
