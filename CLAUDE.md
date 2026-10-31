@@ -5,6 +5,11 @@ Edit it with `tools/wp.py`, which uses the WordPress REST API. Login comes from 
 `WP_APP_PASSWORD` environment variables (a WordPress Application Password). The
 `wordpress-plugin/mvp-claude-connector` plugin must be active on the site for Elementor and Yoast edits.
 
+**First run / "set up the website connection":** run `python3 tools/wp.py setup` (installs the
+connector through the free Code Snippets plugin; needs an Administrator login), then
+`python3 tools/wp.py pull` to back up every page, commit and push. If `WP_USER`/`WP_APP_PASSWORD`
+are missing, point James to `wordpress-plugin/SETUP.md`. Never ask him to paste a password into chat.
+
 James (the owner) gives instructions in plain English. Follow this every time:
 
 1. `python3 tools/wp.py pull <slug>` before changing a page, so you edit the live version.

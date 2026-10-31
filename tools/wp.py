@@ -11,6 +11,7 @@ variables. WP_URL defaults to https://mvp-electric.com.
     python3 tools/wp.py create <slug> --title T [--copy-from SLUG]   make a new DRAFT page
     python3 tools/wp.py status <slug> draft|publish
     python3 tools/wp.py purge                    clear Elementor and LiteSpeed caches
+    python3 tools/wp.py setup                    one-time install of the connector (needs an admin login)
 
 Every pull and push writes to site-snapshots/, so git history doubles as an undo log.
 """
@@ -164,6 +165,52 @@ def cmd_purge(a):
     print(api("POST", "/mvp-cc/v1/purge", {}))
 
 
+CONNECTOR_NAME = "MVP Claude Connector"
+CONNECTOR_FILE = ROOT / "wordpress-plugin" / "mvp-claude-connector" / "mvp-claude-connector.php"
+
+
+def cmd_setup(a):
+    """One-time install of the connector, using an Administrator Application Password.
+
+    WordPress's API can only install plugins from wordpress.org, so this installs the free
+    "Code Snippets" plugin and adds the connector code to it as an always-on snippet.
+    """
+    require_auth()
+    me = api("GET", "/wp/v2/users/me?context=edit")
+    if "administrator" not in me.get("roles", []):
+        sys.exit(f"'{me.get('slug')}' is not an Administrator. Setup needs an admin Application Password.")
+
+    plugins = {p["plugin"]: p for p in api("GET", "/wp/v2/plugins")}
+    if any(k.startswith("mvp-claude-connector/") and v["status"] == "active" for k, v in plugins.items()):
+        print("Connector plugin is already active. Nothing to do.")
+        return
+
+    cs = plugins.get("code-snippets/code-snippets")
+    if cs is None:
+        print("Installing Code Snippets from wordpress.org…")
+        api("POST", "/wp/v2/plugins", {"slug": "code-snippets", "status": "active"})
+    elif cs["status"] != "active":
+        print("Activating Code Snippets…")
+        api("POST", "/wp/v2/plugins/code-snippets/code-snippets", {"status": "active"})
+
+    code = CONNECTOR_FILE.read_text().replace("<?php", "", 1).strip()
+    existing = [s for s in api("GET", "/code-snippets/v1/snippets") if s.get("name") == CONNECTOR_NAME]
+    body = {"name": CONNECTOR_NAME, "code": code, "scope": "global", "active": True,
+            "desc": "Lets Claude edit Elementor pages and Yoast SEO fields over the REST API. Deactivate to cut off editing."}
+    if existing:
+        api("POST", f"/code-snippets/v1/snippets/{existing[0]['id']}", body)
+        print("Updated the connector snippet.")
+    else:
+        api("POST", "/code-snippets/v1/snippets", body)
+        print("Added the connector snippet.")
+
+    home = api("GET", "/wp/v2/pages/14?context=edit")
+    if "_elementor_data" in home.get("meta", {}):
+        print("Setup complete: Elementor layouts are now editable.")
+    else:
+        sys.exit("The snippet was saved, but Elementor data still isn't visible. Check Snippets in wp-admin.")
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -174,6 +221,7 @@ def main():
     s = sub.add_parser("create"); s.add_argument("slug"); s.add_argument("--title", required=True); s.add_argument("--copy-from"); s.set_defaults(fn=cmd_create)
     s = sub.add_parser("status"); s.add_argument("slug"); s.add_argument("status", choices=["draft", "publish"]); s.set_defaults(fn=cmd_status)
     sub.add_parser("purge").set_defaults(fn=cmd_purge)
+    sub.add_parser("setup").set_defaults(fn=cmd_setup)
     a = p.parse_args()
     a.fn(a)
 
