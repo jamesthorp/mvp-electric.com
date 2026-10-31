@@ -12,7 +12,7 @@ Washington, Clackamas and Multnomah counties. Honest bids, clean work, passes in
 
 **Buttons:** [ Call (503) 922-6873 ] [ Text a Photo of the Job ] [ Free Estimate ]
 
-**Trust strip:** Licensed · Bonded · Insured · Oregon CCB #253767 · Owner-operated
+**Trust strip:** Licensed · Bonded · Insured · CCB #253767 · OR Electrical Lic. #C2008 · Owner-operated
 
 ---
 
@@ -69,7 +69,7 @@ Washington, Clackamas and Multnomah counties. Honest bids, clean work, passes in
 Yes. Call or text (503) 922-6873, or send photos of the job, and we'll get you a bid.
 
 **Are you licensed and insured?**
-Yes. MVP Electric is a licensed, bonded and insured Oregon electrical contractor, CCB #253767.
+Yes. MVP Electric is a licensed, bonded and insured Oregon electrical contractor: CCB #253767, electrical contractor license #C2008.
 
 **Do you pull permits?**
 Yes. Permitted work is inspected, and the permit is included in your bid.
