@@ -165,6 +165,29 @@ def cmd_purge(a):
     print(api("POST", "/mvp-cc/v1/purge", {}))
 
 
+def cmd_upload(a):
+    """Strip metadata (incl. GPS), convert to WebP, upload to the Media Library with alt text."""
+    require_auth()
+    import io
+    import mimetypes
+    from PIL import Image, ImageOps
+    im = ImageOps.exif_transpose(Image.open(a.file)).convert("RGB")
+    if max(im.size) > 1920:
+        im.thumbnail((1920, 1920))
+    buf = io.BytesIO()
+    im.save(buf, "WEBP", quality=82)
+    name = f"{a.name}.webp"
+    headers = {"Content-Disposition": f'attachment; filename="{name}"', "Content-Type": "image/webp",
+               "User-Agent": "mvp-claude-connector/1.0"}
+    user, pw = os.environ["WP_USER"], os.environ["WP_APP_PASSWORD"]
+    headers["Authorization"] = "Basic " + base64.b64encode(f"{user}:{pw.replace(' ', '')}".encode()).decode()
+    req = urllib.request.Request(f"{BASE}/wp-json/wp/v2/media", data=buf.getvalue(), headers=headers, method="POST")
+    with urllib.request.urlopen(req, timeout=120) as r:
+        media = json.loads(r.read())
+    api("POST", f"/wp/v2/media/{media['id']}", {"alt_text": a.alt, "title": a.alt})
+    print(media["id"], media["source_url"], f"{im.size[0]}x{im.size[1]}", f"{len(buf.getvalue())//1024} KB")
+
+
 CONNECTOR_NAME = "MVP Claude Connector"
 CONNECTOR_FILE = ROOT / "wordpress-plugin" / "mvp-claude-connector" / "mvp-claude-connector.php"
 
@@ -222,6 +245,7 @@ def main():
     s = sub.add_parser("status"); s.add_argument("slug"); s.add_argument("status", choices=["draft", "publish"]); s.set_defaults(fn=cmd_status)
     sub.add_parser("purge").set_defaults(fn=cmd_purge)
     sub.add_parser("setup").set_defaults(fn=cmd_setup)
+    s = sub.add_parser("upload"); s.add_argument("file"); s.add_argument("--name", required=True); s.add_argument("--alt", required=True); s.set_defaults(fn=cmd_upload)
     a = p.parse_args()
     a.fn(a)
 
