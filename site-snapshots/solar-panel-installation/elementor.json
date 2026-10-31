@@ -623,7 +623,7 @@
              "_id": "dd275ad"
             },
             {
-             "text": "Boost Property Value: Installing a home or business charging station can increase the value of your property.",
+             "text": "Boost Property Value: A solar system can increase the value of your home or business.",
              "selected_icon": {
               "value": "icon icon-flash",
               "library": "ekiticons"
@@ -1448,25 +1448,6 @@
            },
            "ekit_socialmedai_list_align": "left",
            "ekit_socialmedia_add_icons": [
-            {
-             "_id": "bd82e83",
-             "ekit_socialmedia_icons": {
-              "value": "fab fa-instagram",
-              "library": "fa-brands"
-             },
-             "ekit_socialmedia_label": "Instagram",
-             "ekit_socialmedia_link": {
-              "url": "https://Instagram.com",
-              "is_external": "",
-              "nofollow": "",
-              "custom_attributes": ""
-             },
-             "ekit_socialmedia_icon_hover_bg_color": "",
-             "__globals__": {
-              "ekit_socialmedia_icon_color": "globals/colors?id=d673df5",
-              "ekit_socialmedia_icon_hover_color": "globals/colors?id=431a99a"
-             }
-            },
             {
              "ekit_socialmedia_icons": {
               "value": "icon icon-facebook-1",

@@ -1,0 +1,741 @@
+[
+ {
+  "id": "14b084f2",
+  "elType": "section",
+  "settings": {
+   "background_background": "classic",
+   "padding": {
+    "unit": "em",
+    "top": "6",
+    "right": "1",
+    "bottom": "1",
+    "left": "1",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "em",
+    "top": "3",
+    "right": "1",
+    "bottom": "3",
+    "left": "1",
+    "isLinked": false
+   },
+   "padding_mobile": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "__globals__": {
+    "background_color": "",
+    "border_color": "",
+    "background_overlay_color": ""
+   },
+   "structure": "40",
+   "background_image": {
+    "id": 51,
+    "url": "https://mvp-electric.com/wp-content/uploads/2024/09/assets-SA5GWLH.jpg",
+    "alt": "",
+    "source": "library",
+    "size": ""
+   },
+   "background_position": "center center",
+   "background_size": "cover",
+   "background_overlay_image": {
+    "url": "",
+    "id": "",
+    "size": "",
+    "alt": "",
+    "source": "library"
+   },
+   "background_overlay_position": "center center",
+   "background_overlay_size": "cover",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.88,
+    "sizes": []
+   },
+   "border_border": "solid",
+   "border_width": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "background_overlay_background": "classic",
+   "background_attachment": "scroll",
+   "background_repeat": "no-repeat",
+   "background_overlay_color": "#000000"
+  },
+  "elements": [
+   {
+    "id": "1fabc9e6",
+    "elType": "column",
+    "settings": {
+     "_column_size": 25,
+     "_inline_size": 40,
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "4",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "margin": {
+      "unit": "%",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "space_between_widgets": 0,
+     "margin_tablet": {
+      "unit": "%",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "margin_mobile": {
+      "unit": "%",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "_inline_size_tablet": 100
+    },
+    "elements": [
+     {
+      "id": "6ccb8f7a",
+      "elType": "widget",
+      "settings": {
+       "image": {
+        "id": 347,
+        "url": "https://mvp-electric.com/wp-content/uploads/2024/09/MVP-Electric-Logo-white.png",
+        "alt": "MVP Electric logo",
+        "source": "library",
+        "size": ""
+       },
+       "image_size": "full",
+       "align": "left",
+       "_margin": {
+        "unit": "px",
+        "top": "-25",
+        "right": "0",
+        "bottom": "0",
+        "left": "-10",
+        "isLinked": false
+       },
+       "width_tablet": {
+        "unit": "%",
+        "size": 35,
+        "sizes": []
+       },
+       "width_mobile": {
+        "unit": "%",
+        "size": 80,
+        "sizes": []
+       },
+       "align_tablet": "center",
+       "width": {
+        "unit": "%",
+        "size": 50,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "image"
+     },
+     {
+      "id": "5fe15b24",
+      "elType": "widget",
+      "settings": {
+       "space": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "spacer"
+     },
+     {
+      "id": "42fd1132",
+      "elType": "widget",
+      "settings": {
+       "__globals__": {
+        "text_color": "globals/colors?id=c52b1d1",
+        "typography_typography": ""
+       },
+       "editor": "<p>MVP Electric is empowering homes and businesses with expert electrical solutions and innovative energy options.</p>",
+       "align": "left",
+       "align_tablet": "center"
+      },
+      "elements": [],
+      "widgetType": "text-editor"
+     },
+     {
+      "id": "1a48edce",
+      "elType": "widget",
+      "settings": {
+       "space": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "spacer"
+     },
+     {
+      "id": "18ff200a",
+      "elType": "widget",
+      "settings": {
+       "space": {
+        "unit": "px",
+        "size": 30,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "spacer"
+     }
+    ],
+    "isInner": false
+   },
+   {
+    "id": "93ca39a",
+    "elType": "column",
+    "settings": {
+     "_column_size": 25,
+     "_inline_size": 18.645,
+     "_inline_size_tablet": 33,
+     "margin_tablet": {
+      "unit": "%",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "margin_mobile": {
+      "unit": "%",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "_inline_size_mobile": 50
+    },
+    "elements": [
+     {
+      "id": "5abf0808",
+      "elType": "widget",
+      "settings": {
+       "title": "PAGE LINKS",
+       "header_size": "h6",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=eed848b"
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "2fe48346",
+      "elType": "widget",
+      "settings": {
+       "icon_list": [
+        {
+         "text": "Home",
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "link": {
+          "url": "#",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "_id": "715ff8e",
+         "__dynamic__": {
+          "link": "[elementor-tag id=\"1a03cb2\" name=\"site-url\" settings=\"%7B%7D\"]"
+         }
+        },
+        {
+         "text": "About Us",
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "link": {
+          "url": "https://mvp-electric.com/about-us/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "_id": "2005b20"
+        },
+        {
+         "text": "Reviews",
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "link": {
+          "url": "https://mvp-electric.com/reviews/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "_id": "f06e387"
+        }
+       ],
+       "space_between": {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+       },
+       "icon_size": {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+       },
+       "__globals__": {
+        "icon_color": "globals/colors?id=431a99a",
+        "text_color": "globals/colors?id=9e7bcac",
+        "icon_typography_typography": "",
+        "text_color_hover": "globals/colors?id=431a99a"
+       },
+       "icon_align": "left",
+       "icon_self_align": "left"
+      },
+      "elements": [],
+      "widgetType": "icon-list"
+     },
+     {
+      "id": "e303ab8",
+      "elType": "widget",
+      "settings": {
+       "space": {
+        "unit": "px",
+        "size": 30,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "spacer"
+     }
+    ],
+    "isInner": false
+   },
+   {
+    "id": "4929e083",
+    "elType": "column",
+    "settings": {
+     "_column_size": 25,
+     "_inline_size": 18.799,
+     "_inline_size_tablet": 33,
+     "_inline_size_mobile": 50
+    },
+    "elements": [
+     {
+      "id": "12337a1e",
+      "elType": "widget",
+      "settings": {
+       "title": "INFORMATION",
+       "header_size": "h6",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=eed848b"
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "4936299",
+      "elType": "widget",
+      "settings": {
+       "icon_list": [
+        {
+         "text": "Privacy Policy",
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "link": {
+          "url": "https://mvp-electric.com/privacy-policy/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "_id": "7cd4da4"
+        },
+        {
+         "text": "Terms & Condition",
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "link": {
+          "url": "https://mvp-electric.com/terms-condition/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "_id": "ddd025b"
+        },
+        {
+         "text": "Contact Us",
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "link": {
+          "url": "https://mvp-electric.com/contact-us/",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "_id": "a50a6a8"
+        }
+       ],
+       "space_between": {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+       },
+       "icon_size": {
+        "unit": "px",
+        "size": 15,
+        "sizes": []
+       },
+       "__globals__": {
+        "icon_color": "globals/colors?id=431a99a",
+        "text_color": "globals/colors?id=9e7bcac",
+        "icon_typography_typography": "",
+        "text_color_hover": "globals/colors?id=431a99a"
+       },
+       "icon_align": "left",
+       "icon_self_align": "left"
+      },
+      "elements": [],
+      "widgetType": "icon-list"
+     },
+     {
+      "id": "2875a79b",
+      "elType": "widget",
+      "settings": {
+       "space": {
+        "unit": "px",
+        "size": 30,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "spacer"
+     }
+    ],
+    "isInner": false
+   },
+   {
+    "id": "16e7361a",
+    "elType": "column",
+    "settings": {
+     "_column_size": 25,
+     "_inline_size": 22.556,
+     "_inline_size_tablet": 33
+    },
+    "elements": [
+     {
+      "id": "26a03799",
+      "elType": "widget",
+      "settings": {
+       "title": "CONTACT INFO",
+       "header_size": "h6",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=eed848b"
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "3110eb13",
+      "elType": "widget",
+      "settings": {
+       "icon_list": [
+        {
+         "text": "(503) 922-6873",
+         "selected_icon": {
+          "value": "icon icon-phone1",
+          "library": "ekiticons"
+         },
+         "_id": "75dbcb2",
+         "link": {
+          "url": "tel:(503) 922-6873",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        {
+         "text": "james@mvp-electric.com",
+         "selected_icon": {
+          "value": "icon icon-email1",
+          "library": "ekiticons"
+         },
+         "_id": "c0f4ff1",
+         "link": {
+          "url": "mailto:james@mvp-electric.com",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        }
+       ],
+       "space_between": {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+       },
+       "icon_size": {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+       },
+       "__globals__": {
+        "icon_color": "globals/colors?id=431a99a",
+        "text_color": "globals/colors?id=9e7bcac",
+        "icon_typography_typography": "",
+        "text_color_hover": ""
+       },
+       "icon_align": "left",
+       "icon_self_align": "left",
+       "icon_color": "#F77F00",
+       "text_color": "#FFFFFF"
+      },
+      "elements": [],
+      "widgetType": "icon-list"
+     },
+     {
+      "id": "ff6c7be",
+      "elType": "widget",
+      "settings": {
+       "title": "CCB#253767",
+       "header_size": "h6",
+       "_margin": {
+        "unit": "px",
+        "top": "10",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "2c97cd7e",
+      "elType": "widget",
+      "settings": {
+       "ekit_socialmedai_list_align": "left",
+       "ekit_socialmedia_add_icons": [
+        {
+         "ekit_socialmedia_label": "Facebook",
+         "_id": "218b796",
+         "__globals__": {
+          "ekit_socialmedia_icon_color": "globals/colors?id=9e7bcac",
+          "ekit_socialmedia_icon_hover_color": "globals/colors?id=431a99a"
+         },
+         "ekit_socialmedia_icon_hover_bg_color": "",
+         "ekit_socialmedia_link": {
+          "url": "https://www.facebook.com/profile.php?id=61569705050483",
+          "is_external": "on",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        }
+       ],
+       "ekit_socialmedai_list_margin": {
+        "unit": "px",
+        "top": "5",
+        "right": "25",
+        "bottom": "5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_socialmedai_list_icon_size": {
+        "unit": "px",
+        "size": 21,
+        "sizes": []
+       },
+       "ekit_socialmedai_list_icon_size_mobile": {
+        "unit": "px",
+        "size": 21,
+        "sizes": []
+       },
+       "animation_duration": "slow",
+       "_animation_delay": 75,
+       "ekit_socialmedai_list_align_tablet": "center",
+       "ekit_socialmedai_list_align_mobile": "left"
+      },
+      "elements": [],
+      "widgetType": "elementskit-social-media"
+     },
+     {
+      "id": "18ae5b99",
+      "elType": "widget",
+      "settings": {
+       "space": {
+        "unit": "px",
+        "size": 30,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "spacer"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "15c871c6",
+  "elType": "section",
+  "settings": {
+   "gap": "no",
+   "background_background": "classic",
+   "border_width": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": true
+   },
+   "__globals__": {
+    "background_color": "globals/colors?id=3ea37e2",
+    "border_color": ""
+   },
+   "border_color": "#FFFFFF",
+   "padding": {
+    "unit": "em",
+    "top": "1",
+    "right": "1",
+    "bottom": "1",
+    "left": "1",
+    "isLinked": true
+   },
+   "padding_tablet": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "padding_mobile": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "reverse_order_mobile": "reverse-mobile"
+  },
+  "elements": [
+   {
+    "id": "5f3f9a66",
+    "elType": "column",
+    "settings": {
+     "_column_size": 100,
+     "_inline_size": null,
+     "padding": {
+      "unit": "em",
+      "top": "0.5",
+      "right": "0",
+      "bottom": "0.5",
+      "left": "0",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "_inline_size_tablet": 100,
+     "content_position": "center"
+    },
+    "elements": [
+     {
+      "id": "1e8d7e2a",
+      "elType": "widget",
+      "settings": {
+       "title": "Copyright 2026 © MVP Electric | All Rights Reserved.",
+       "header_size": "p",
+       "align": "center",
+       "__globals__": {
+        "title_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=19dfd59"
+       },
+       "align_tablet": "center"
+      },
+      "elements": [],
+      "widgetType": "heading"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ }
+]

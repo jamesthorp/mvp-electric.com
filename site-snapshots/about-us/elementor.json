@@ -558,7 +558,7 @@
           "settings": {
            "icon_list": [
             {
-             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+             "text": "Licensed, bonded & insured: CCB #253767 · OR Electrical Lic. #C2008",
              "selected_icon": {
               "value": "icon icon-flash",
               "library": "ekiticons"
@@ -566,7 +566,7 @@
              "_id": "35c9bdf"
             },
             {
-             "text": "Sed lacinia odio at enim dictum faucibus. Integer faucibus mauris.",
+             "text": "Free estimates, with the permit included in your bid",
              "selected_icon": {
               "value": "icon icon-flash",
               "library": "ekiticons"
@@ -574,7 +574,7 @@
              "_id": "51730b0"
             },
             {
-             "text": "Nulla facilisi. Donec elementum mauris orci, id ullamcorper sem rutrum.",
+             "text": "Owner-operated: you work directly with James",
              "selected_icon": {
               "value": "icon icon-flash",
               "library": "ekiticons"
@@ -582,7 +582,7 @@
              "_id": "dd275ad"
             },
             {
-             "text": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.",
+             "text": "Fast replies, usually the same day",
              "selected_icon": {
               "value": "icon icon-flash",
               "library": "ekiticons"
@@ -2680,13 +2680,13 @@
        "ekit_testimonial_style": "style5",
        "ekit_testimonial_data": [
         {
-         "client_name": "Jake Mulligan",
+         "client_name": "Julie P.",
          "_id": "8c8670a",
-         "designation": "Designation",
-         "review": "\"MVP Electric went above and beyond with our solar panel installation. From consultation to final setup, their team was professional, efficient, and incredibly knowledgeable. We're already seeing the savings on our energy bills. Highly recommend them!\" ",
+         "designation": "Repeat customer",
+         "review": "\"We love James! He's attentive, thorough, organized, patient with our requests, and capable.\"",
          "client_photo": {
-          "id": "74",
-          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/testimonial-3.png"
+          "id": "",
+          "url": ""
          },
          "client_logo": {
           "id": 122,
@@ -2698,13 +2698,13 @@
          }
         },
         {
-         "client_name": "Clara Hendricks",
+         "client_name": "Vipan M.",
          "_id": "e3de3db",
-         "designation": "Designation",
-         "review": ". \"I hired MVP Electric for a complete electrical overhaul on my new construction site. Their electricians were detail-oriented, timely, and worked seamlessly with my contractors. I couldn’t be happier with the results!\"",
+         "designation": "Electrical project",
+         "review": "\"James was knowledgeable and provided all the answers to my questions … He was honest about what he told me and I got the feeling that he was looking after my interests.\"",
          "client_photo": {
-          "id": "73",
-          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/testimonial-4.png"
+          "id": "",
+          "url": ""
          },
          "client_logo": {
           "id": 122,
@@ -2717,15 +2717,12 @@
         },
         {
          "_id": "6a1f4bf",
-         "client_name": "Nathan Voss",
-         "designation": "Designation",
-         "review": "\"When our business needed EV charging stations, MVP Electric delivered with precision and speed. They made the whole process smooth and hassle-free. Exceptional service and highly reliable team!\" ",
+         "client_name": "Michael K.",
+         "designation": "Whole-home generator",
+         "review": "\"He did the electrical work on whole home generator install at my home. James was very pleasant to work with, arrived on time, did the job quickly, was reasonably priced and did quality work that passed inspection the first time.\"",
          "client_photo": {
-          "id": 74,
-          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/testimonial-3.png",
-          "alt": "",
-          "source": "library",
-          "size": ""
+          "id": "",
+          "url": ""
          },
          "client_logo": {
           "id": 122,

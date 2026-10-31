@@ -483,37 +483,11 @@
           "ekit_socialmedia_icon_hover_color": "globals/colors?id=accent"
          },
          "ekit_socialmedia_icon_hover_bg_color": "",
-         "ekit_socialmedia_icon_color": "#0A1E51"
-        },
-        {
-         "ekit_socialmedia_icons": {
-          "value": "icon icon-twitter",
-          "library": "ekiticons"
-         },
-         "ekit_socialmedia_label": "Twitter",
-         "ekit_socialmedia_icon_hover_bg_color": "",
-         "_id": "dfba0ce",
-         "__globals__": {
-          "ekit_socialmedia_icon_color": "",
-          "ekit_socialmedia_icon_hover_color": "globals/colors?id=accent"
-         },
          "ekit_socialmedia_icon_color": "#0A1E51",
-         "ekit_socialmedia_icon_hover_color": "#F77F00"
-        },
-        {
-         "ekit_socialmedia_icons": {
-          "value": "fab fa-instagram",
-          "library": "fa-brands"
-         },
-         "ekit_socialmedia_label": "instagram",
-         "ekit_socialmedia_icon_hover_bg_color": "",
-         "__globals__": {
-          "ekit_socialmedia_icon_color": "",
-          "ekit_socialmedia_icon_hover_color": "globals/colors?id=431a99a"
-         },
-         "_id": "7784f63",
-         "ekit_socialmedia_icon_color": "#0A1E51",
-         "ekit_socialmedia_icon_hover_color": "#F77F00"
+         "ekit_socialmedia_link": {
+          "url": "https://www.facebook.com/profile.php?id=61569705050483",
+          "is_external": "on"
+         }
         }
        ],
        "ekit_socialmedai_list_margin": {
@@ -700,7 +674,7 @@
         "text_color": "globals/colors?id=3723bbf",
         "typography_typography": "globals/typography?id=19dfd59"
        },
-       "editor": "<p>We look forward to hearing form you. We promise to get back to you ASAP so we can show you that you are our MVP.</p>"
+       "editor": "<p>We look forward to hearing from you. We promise to get back to you ASAP so we can show you that you are our MVP.</p>"
       },
       "elements": [],
       "widgetType": "text-editor"

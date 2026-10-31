@@ -1421,25 +1421,6 @@
            "ekit_socialmedai_list_align": "left",
            "ekit_socialmedia_add_icons": [
             {
-             "_id": "bd82e83",
-             "ekit_socialmedia_icons": {
-              "value": "fab fa-instagram",
-              "library": "fa-brands"
-             },
-             "ekit_socialmedia_label": "Instagram",
-             "ekit_socialmedia_link": {
-              "url": "https://Instagram.com",
-              "is_external": "",
-              "nofollow": "",
-              "custom_attributes": ""
-             },
-             "ekit_socialmedia_icon_hover_bg_color": "",
-             "__globals__": {
-              "ekit_socialmedia_icon_color": "globals/colors?id=d673df5",
-              "ekit_socialmedia_icon_hover_color": "globals/colors?id=431a99a"
-             }
-            },
-            {
              "ekit_socialmedia_icons": {
               "value": "icon icon-facebook-1",
               "library": "ekiticons"
@@ -2361,13 +2342,13 @@
        "ekit_testimonial_style": "style5",
        "ekit_testimonial_data": [
         {
-         "client_name": "Jake Mulligan",
+         "client_name": "Phil E.",
          "_id": "8c8670a",
-         "designation": "Designation",
-         "review": "\"MVP Electric went above and beyond with our solar panel installation. From consultation to final setup, their team was professional, efficient, and incredibly knowledgeable. We're already seeing the savings on our energy bills. Highly recommend them!\" ",
+         "designation": "Lighting & repairs",
+         "review": "\"James with MVP has done several jobs for me including fixing can-lights, a garage door opener, diagnosing nonworking gfci outlets, installing light dimmer switches, and fixing an electric fireplace. With every job he has been professional and knowledgeable.\"",
          "client_photo": {
-          "id": "74",
-          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/testimonial-3.png"
+          "id": "",
+          "url": ""
          },
          "client_logo": {
           "id": "122",
@@ -2379,13 +2360,13 @@
          }
         },
         {
-         "client_name": "Clara Hendricks",
+         "client_name": "Sean M.",
          "_id": "e3de3db",
-         "designation": "Designation",
-         "review": "\"I hired MVP Electric for a complete electrical overhaul on my new construction site. Their electricians were detail-oriented, timely, and worked seamlessly with my contractors. I couldn’t be happier with the results!\"",
+         "designation": "Panel & troubleshooting",
+         "review": "\"I've worked with James on several occasions, and each time, the experience has been excellent. From installing a new panel to troubleshooting electrical issues, he's consistently delivered high-quality work. Always punctual, professional, and efficient.\"",
          "client_photo": {
-          "id": "73",
-          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/testimonial-4.png"
+          "id": "",
+          "url": ""
          },
          "client_logo": {
           "id": "122",
@@ -2398,15 +2379,12 @@
         },
         {
          "_id": "6a1f4bf",
-         "client_name": "Nathan Voss",
-         "designation": "Designation",
-         "review": " \"When our business needed EV charging stations, MVP Electric delivered with precision and speed. They made the whole process smooth and hassle-free. Exceptional service and highly reliable team!\"",
+         "client_name": "Jeff A.",
+         "designation": "Wiring repair",
+         "review": "\"James was super responsive and helpful addressing my wiring switch issue. … I highly recommend MVP Electric for any electrical jobs, large or small.\"",
          "client_photo": {
-          "id": 74,
-          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/testimonial-3.png",
-          "alt": "",
-          "source": "library",
-          "size": ""
+          "id": "",
+          "url": ""
          },
          "client_logo": {
           "id": "122",

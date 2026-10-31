@@ -1557,7 +1557,7 @@
           "settings": {
            "icon_list": [
             {
-             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+             "text": "Licensed, bonded & insured: CCB #253767 · OR Electrical Lic. #C2008",
              "selected_icon": {
               "value": "icon icon-flash",
               "library": "ekiticons"
@@ -1565,7 +1565,7 @@
              "_id": "35c9bdf"
             },
             {
-             "text": "Sed lacinia odio at enim dictum faucibus. Integer faucibus mauris.",
+             "text": "Free estimates, with the permit included in your bid",
              "selected_icon": {
               "value": "icon icon-flash",
               "library": "ekiticons"
@@ -1573,7 +1573,7 @@
              "_id": "51730b0"
             },
             {
-             "text": "Nulla facilisi. Donec elementum mauris orci, id ullamcorper sem rutrum.",
+             "text": "Owner-operated: you work directly with James",
              "selected_icon": {
               "value": "icon icon-flash",
               "library": "ekiticons"
@@ -1581,7 +1581,7 @@
              "_id": "dd275ad"
             },
             {
-             "text": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.",
+             "text": "Fast replies, usually the same day",
              "selected_icon": {
               "value": "icon icon-flash",
               "library": "ekiticons"
@@ -3677,7 +3677,7 @@
             "left": "",
             "isLinked": true
            },
-           "editor": "<p>As a trusted construction site electrician, we specialize in wiring new builds from the ground up. Our team works seamlessly with contractors to provide safe, efficient, and efficient electrical systems tailored to your project's demands.</p>"
+           "editor": "<p>As a trusted construction site electrician, we specialize in wiring new builds from the ground up. Our team works seamlessly with contractors to provide safe, efficient, and reliable electrical systems tailored to your project's demands.</p>"
           },
           "elements": [],
           "widgetType": "text-editor"
@@ -4696,8 +4696,8 @@
         "value": "icon icon-review",
         "library": "ekiticons"
        },
-       "title_text": "4.9",
-       "description_text": "Reviews",
+       "title_text": "5.0★",
+       "description_text": "19 Google Reviews",
        "position": "left",
        "icon_size": {
         "unit": "px",
@@ -5004,8 +5004,8 @@
             "value": "icon icon-factory",
             "library": "ekiticons"
            },
-           "title_text": "60+ ",
-           "description_text": "Residential Projects Completed",
+           "title_text": "Licensed",
+           "description_text": "CCB #253767 · OR Lic. #C2008",
            "position": "left",
            "primary_color": "#FCD30D",
            "icon_space": {
@@ -5062,7 +5062,7 @@
            },
            "title_typography_font_size_mobile": {
             "unit": "rem",
-            "size": 2.7,
+            "size": 1.5,
             "sizes": []
            },
            "title_typography_font_weight": "600",
@@ -5118,8 +5118,8 @@
             "value": "icon icon-Helmet",
             "library": "ekiticons"
            },
-           "title_text": "92% ",
-           "description_text": "Customer Satisfaction Rating",
+           "title_text": "Owner-Operated",
+           "description_text": "Work directly with James",
            "position": "left",
            "primary_color": "#FCD30D",
            "icon_space": {
@@ -5176,7 +5176,7 @@
            },
            "title_typography_font_size_mobile": {
             "unit": "rem",
-            "size": 2.7,
+            "size": 1.5,
             "sizes": []
            },
            "title_typography_font_weight": "600",
@@ -5956,13 +5956,13 @@
        "ekit_testimonial_style": "style5",
        "ekit_testimonial_data": [
         {
-         "client_name": "Jake Mulligan",
+         "client_name": "Joel K.",
          "_id": "8c8670a",
-         "designation": "",
-         "review": "\"MVP Electric went above and beyond with our solar panel installation. From consultation to final setup, their team was professional, efficient, and incredibly knowledgeable. We're already seeing the savings on our energy bills. Highly recommend them!\" ",
+         "designation": "Generator interlock",
+         "review": "\"James installed a generator interlock system and ran conduit for a custom generator receptacle with excellent workmanship and attention to detail. … Everything passed inspection, looks great, works perfectly, and I plan to hire him again.\"",
          "client_photo": {
-          "id": 74,
-          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/testimonial-3.png"
+          "id": "",
+          "url": ""
          },
          "client_logo": {
           "id": "",
@@ -5974,13 +5974,13 @@
          }
         },
         {
-         "client_name": "Clara Hendricks",
+         "client_name": "Bob C.",
          "_id": "e3de3db",
-         "designation": "",
-         "review": "I hired MVP Electric for a complete electrical overhaul on my new construction site. Their electricians were detail-oriented, timely, and worked seamlessly with my contractors. I couldn’t be happier with the results!\"",
+         "designation": "EV charger install",
+         "review": "\"James Thorp installed a home Chargepoint EV charger for me. Very quick to respond - came out to assess the job same day. Emailed an estimate same day and completed the work just a few days later at my convenience. He included the charger and permit in his bid.\"",
          "client_photo": {
-          "id": 73,
-          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/testimonial-4.png"
+          "id": "",
+          "url": ""
          },
          "client_logo": {
           "id": "",
@@ -5993,12 +5993,12 @@
         },
         {
          "_id": "6a1f4bf",
-         "client_name": "Nathan Voss",
-         "designation": "",
-         "review": "\"When our business needed EV charging stations, MVP Electric delivered with precision and speed. They made the whole process smooth and hassle-free. Exceptional service and highly reliable team!\" ",
+         "client_name": "Sean M.",
+         "designation": "Panel & troubleshooting",
+         "review": "\"I've worked with James on several occasions, and each time, the experience has been excellent. From installing a new panel to troubleshooting electrical issues, he's consistently delivered high-quality work. Always punctual, professional, and efficient.\"",
          "client_photo": {
-          "id": 75,
-          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/testimonial-2.png"
+          "id": "",
+          "url": ""
          },
          "client_logo": {
           "id": "",

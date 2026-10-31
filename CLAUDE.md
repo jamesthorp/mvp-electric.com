@@ -15,8 +15,8 @@ James (the owner) gives instructions in plain English. Follow this every time:
 1. `python3 tools/wp.py pull <slug>` before changing a page, so you edit the live version.
 2. Edit `site-snapshots/<slug>/elementor.json` (Elementor's layout: nested sections, columns and
    widgets; text lives in `settings`, e.g. `title`, `editor`, `text`). Change only what was asked.
-3. Show James a short before/after summary of the change. For anything bigger than a text or SEO
-   tweak, get his OK before pushing.
+3. Small fixes (typos, placeholder text, SEO titles/descriptions, broken links) are pre-approved:
+   make them, then report a before/after summary. For anything bigger, get James's OK before pushing.
 4. `python3 tools/wp.py push <slug>` (it saves a backup to `site-snapshots/_backups/` first), then
    fetch the live page and confirm the change shows up.
 5. New pages are always created as **drafts** (`create`). Publish only after James approves the preview.
