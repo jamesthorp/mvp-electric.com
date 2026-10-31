@@ -205,10 +205,10 @@ def cmd_setup(a):
         print("Added the connector snippet.")
 
     home = api("GET", "/wp/v2/pages/14?context=edit")
-    if "_elementor_data" in home.get("meta", {}):
-        print("Setup complete: Elementor layouts are now editable.")
+    if "_yoast_wpseo_title" in home.get("meta", {}):
+        print("Setup complete: Elementor layouts and Yoast SEO fields are now editable.")
     else:
-        sys.exit("The snippet was saved, but Elementor data still isn't visible. Check Snippets in wp-admin.")
+        sys.exit("The snippet was saved, but the Yoast fields still aren't visible. Check Snippets in wp-admin.")
 
 
 def main():

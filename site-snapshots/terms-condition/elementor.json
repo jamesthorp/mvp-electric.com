@@ -1,0 +1,522 @@
+[
+ {
+  "id": "a8eccf7",
+  "elType": "section",
+  "settings": {
+   "height": "min-height",
+   "custom_height": {
+    "unit": "vh",
+    "size": 40,
+    "sizes": []
+   },
+   "custom_height_tablet": {
+    "unit": "vh",
+    "size": 35,
+    "sizes": []
+   },
+   "custom_height_mobile": {
+    "unit": "vh",
+    "size": 25,
+    "sizes": []
+   },
+   "background_background": "classic",
+   "background_image": {
+    "id": "121",
+    "url": "https://mvp-electric.com/wp-content/uploads/2024/09/page.jpg"
+   },
+   "background_position": "top center",
+   "background_attachment": "scroll",
+   "background_repeat": "no-repeat",
+   "background_size": "cover",
+   "background_overlay_background": "classic",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.75,
+    "sizes": []
+   },
+   "__globals__": {
+    "background_overlay_color": "globals/colors?id=3ea37e2"
+   },
+   "_title": "Header page Section",
+   "background_color_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_color_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_color_b_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_color_b_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_gradient_angle_tablet": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_gradient_angle_mobile": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_gradient_position_tablet": "center center",
+   "background_gradient_position_mobile": "center center",
+   "background_hover_color_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_color_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_color_b_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_color_b_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_gradient_angle_tablet": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_gradient_angle_mobile": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_gradient_position_tablet": "center center",
+   "background_hover_gradient_position_mobile": "center center",
+   "background_overlay_color_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_color_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_color_b_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_color_b_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_gradient_angle_tablet": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_gradient_angle_mobile": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_gradient_position_tablet": "center center",
+   "background_overlay_gradient_position_mobile": "center center",
+   "background_overlay_hover_color_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_color_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_color_b_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_color_b_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_gradient_angle_tablet": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_gradient_angle_mobile": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_gradient_position_tablet": "center center",
+   "background_overlay_hover_gradient_position_mobile": "center center"
+  },
+  "elements": [
+   {
+    "id": "f507b40",
+    "elType": "column",
+    "settings": {
+     "_column_size": 100,
+     "_inline_size": null,
+     "space_between_widgets": 0,
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "background_color_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_color_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_color_b_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_color_b_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_gradient_angle_tablet": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_gradient_angle_mobile": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_gradient_position_tablet": "center center",
+     "background_gradient_position_mobile": "center center",
+     "background_hover_color_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_color_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_color_b_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_color_b_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_gradient_angle_tablet": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_gradient_angle_mobile": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_gradient_position_tablet": "center center",
+     "background_hover_gradient_position_mobile": "center center",
+     "background_overlay_color_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_color_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_color_b_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_color_b_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_gradient_angle_tablet": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_gradient_angle_mobile": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_gradient_position_tablet": "center center",
+     "background_overlay_gradient_position_mobile": "center center",
+     "background_overlay_hover_color_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_color_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_color_b_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_color_b_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_gradient_angle_tablet": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_gradient_angle_mobile": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_gradient_position_tablet": "center center",
+     "background_overlay_hover_gradient_position_mobile": "center center"
+    },
+    "elements": [
+     {
+      "id": "df9e4d0",
+      "elType": "widget",
+      "settings": {
+       "title": "Contact",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=a52feea"
+       },
+       "header_size": "h1",
+       "_background_color_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_b_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_b_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_gradient_angle_tablet": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_gradient_angle_mobile": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_b_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_b_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_gradient_angle_tablet": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_gradient_angle_mobile": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "__dynamic__": {
+        "title": "[elementor-tag id=\"db9a13b\" name=\"page-title\" settings=\"%7B%7D\"]"
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "2142a01",
+      "elType": "widget",
+      "settings": {
+       "editor": "Home / Terms & Condition",
+       "align": "left",
+       "__globals__": {
+        "text_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=5966ff9"
+       },
+       "_background_color_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_b_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_b_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_gradient_angle_tablet": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_gradient_angle_mobile": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_b_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_b_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_gradient_angle_tablet": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_gradient_angle_mobile": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "text-editor"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "ad2ba51",
+  "elType": "container",
+  "settings": {
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240,
+    "sizes": []
+   },
+   "padding": {
+    "unit": "px",
+    "top": "70",
+    "right": "0",
+    "bottom": "100",
+    "left": "0",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "0b0f594",
+    "elType": "widget",
+    "settings": {
+     "editor": "<p><strong>Welcome to MVP Electric!</strong></p>\n<p>By accessing our website and utilizing our services, you agree to comply with and be bound by the following terms and conditions. If you do not agree with any part of these terms, please refrain from using our services.</p>\n<p><strong>Acceptance of Terms</strong><br />By accessing or using the services provided by MVP Electric, you confirm that you accept these Terms and Conditions in full. If you do not agree with these terms, you must not use our services.</p>\n<p><strong>Services Provided</strong><br />MVP Electric specializes in a variety of electrical services, including, but not limited to:</p>\n<ul>\n<li><strong>General Electrical Services</strong>: Routine maintenance and electrical repair services for both residential and commercial properties.</li>\n<li><strong>New Construction Electrical Work</strong>: Comprehensive electrical installation for new homes, working closely with contractors to deliver safe and efficient wiring solutions.</li>\n<li><strong>Solar Panel Installation</strong>: Tailored solar energy solutions to meet residential needs and promote sustainability.</li>\n<li><strong>Lighting Retrofits</strong>: Upgrading existing systems with energy-efficient lighting upgrades and LED lighting solutions for residential and commercial applications.</li>\n<li><strong>Electric Vehicle (EV) Charging Stations</strong>: Home EV charger installation and fast charging station setup for both residential and business locations.</li>\n</ul>\n<p> </p>\n<p><strong>Service Agreement</strong></p>\n<p>All services provided by MVP Electric are governed by a service agreement, which must be confirmed in writing via email or a signed contract. This agreement outlines the scope of work, pricing, timelines, and payment terms. MVP Electric reserves the right to refuse or terminate services if the terms are not accepted.</p>\n<p><strong>Pricing and Payment</strong></p>\n<ul>\n<li><strong>Quotations</strong>: Prices for services will be provided in written quotes prior to service commencement. Quotes are valid for a specified period and are subject to change based on the project scope and requirements.</li>\n<li><strong>Payment Terms</strong>: Payment is due upon completion of services unless otherwise specified in the service agreement. Accepted payment methods include cash, credit/debit cards, and electronic transfers.</li>\n<li><strong>Late Payments</strong>: Payments not received within the agreed-upon timeframe may incur late fees. MVP Electric reserves the right to suspend services until outstanding payments are settled.</li>\n</ul>\n<p> </p>\n<p><strong>Warranties and Guarantees</strong><br />MVP Electric provides warranties for its services, ensuring quality and customer satisfaction. Specific warranties may vary by service:</p>\n<ul>\n<li>All electrical work is guaranteed for a period of one year from the date of completion. This warranty covers workmanship and materials.</li>\n<li>In the event of a warranty claim, the customer must contact MVP Electric within the warranty period, and we will assess and resolve the issue at no additional charge, provided it falls within the warranty scope.</li>\n</ul>\n<p> </p>\n<p><strong>Limitation of Liability</strong><br />MVP Electric shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our services or inability to use the services. Our total liability for any claims arising from these terms shall not exceed the total amount paid by you for the specific service in question. This limitation applies to the fullest extent permitted by law.</p>\n<p><strong>Intellectual Property</strong><br />All content, logos, trademarks, and other intellectual property on this website are the exclusive property of MVP Electric. You may not use, reproduce, distribute, or modify any of this material without our prior written consent. Unauthorized use may lead to legal action.</p>\n<p><strong>Privacy Policy</strong><br />Your privacy is important to us. We collect, use, and protect your information in accordance with our Privacy Policy. By using our services, you consent to the collection and use of your information as outlined in the Privacy Policy.</p>\n<p><strong>Changes to Terms and Conditions</strong><br />MVP Electric reserves the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting on our website. Your continued use of our services following the posting of any changes constitutes acceptance of those changes. It is your responsibility to review these terms periodically.</p>\n<p><strong>Governing Law</strong><br />These Terms and Conditions are governed by and construed in accordance with the laws of the state in which MVP Electric operates. Any disputes arising from these terms shall be resolved in the appropriate courts within that jurisdiction.</p>\n<p><strong>Indemnification</strong><br />You agree to indemnify, defend, and hold harmless MVP Electric, its officers, directors, employees, and agents from any claims, losses, liabilities, damages, costs, or expenses (including reasonable attorney fees) arising out of or related to your use of our services or any violation of these Terms and Conditions.</p>\n<p><strong>Contact Information</strong><br />For any questions or concerns regarding these Terms and Conditions or to report any violations, please contact us at:</p>\n<div class=\"TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph\">(503) 922-6873 </div>\n<div class=\"TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph\">james@mvp-electric.com</div>",
+     "text_color": "#000000"
+    },
+    "elements": [],
+    "widgetType": "text-editor"
+   }
+  ],
+  "isInner": false
+ }
+]

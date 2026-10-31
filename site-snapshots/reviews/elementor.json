@@ -1,0 +1,2274 @@
+[
+ {
+  "id": "7d7f3df",
+  "elType": "section",
+  "settings": {
+   "height": "min-height",
+   "custom_height": {
+    "unit": "vh",
+    "size": 40,
+    "sizes": []
+   },
+   "custom_height_tablet": {
+    "unit": "vh",
+    "size": 35,
+    "sizes": []
+   },
+   "custom_height_mobile": {
+    "unit": "vh",
+    "size": 25,
+    "sizes": []
+   },
+   "background_background": "classic",
+   "background_image": {
+    "id": "121",
+    "url": "https://mvp-electric.com/wp-content/uploads/2024/09/page.jpg"
+   },
+   "background_position": "top center",
+   "background_attachment": "scroll",
+   "background_repeat": "no-repeat",
+   "background_size": "cover",
+   "background_overlay_background": "classic",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.75,
+    "sizes": []
+   },
+   "__globals__": {
+    "background_overlay_color": "globals/colors?id=3ea37e2"
+   },
+   "_title": "Header page Section"
+  },
+  "elements": [
+   {
+    "id": "6e4df53",
+    "elType": "column",
+    "settings": {
+     "_column_size": 100,
+     "_inline_size": null,
+     "space_between_widgets": 0,
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     }
+    },
+    "elements": [
+     {
+      "id": "520b1462",
+      "elType": "widget",
+      "settings": {
+       "title": "Pricing Plans",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=a52feea"
+       },
+       "header_size": "h1",
+       "__dynamic__": {
+        "title": "[elementor-tag id=\"1b82596\" name=\"page-title\" settings=\"%7B%7D\"]"
+       },
+       "_margin_mobile": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "7",
+        "left": "0",
+        "isLinked": false
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "2ec9a66b",
+      "elType": "widget",
+      "settings": {
+       "editor": "<p>Home / Reviews</p>",
+       "align": "left",
+       "__globals__": {
+        "text_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=5966ff9"
+       }
+      },
+      "elements": [],
+      "widgetType": "text-editor"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "30574777",
+  "elType": "section",
+  "settings": {
+   "background_background": "classic",
+   "background_image": {
+    "id": "",
+    "url": ""
+   },
+   "background_position": "center center",
+   "background_attachment": "scroll",
+   "background_repeat": "no-repeat",
+   "background_size": "cover",
+   "background_overlay_background": "classic",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.85,
+    "sizes": []
+   },
+   "padding": {
+    "unit": "em",
+    "top": "4.5",
+    "right": "1",
+    "bottom": "6",
+    "left": "1",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "padding_mobile": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "__globals__": {
+    "background_color": "",
+    "background_overlay_color": "globals/colors?id=7e8a24d"
+   },
+   "_title": "Testimonial Section",
+   "background_color": "#F6F6F6",
+   "background_overlay_color": "#F6F6F6"
+  },
+  "elements": [
+   {
+    "id": "4b22c2cd",
+    "elType": "column",
+    "settings": {
+     "_column_size": 100,
+     "_inline_size": null,
+     "content_position": "bottom",
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "1",
+      "right": "0",
+      "bottom": "1",
+      "left": "0",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "_inline_size_tablet": 100
+    },
+    "elements": [
+     {
+      "id": "68e1d9cd",
+      "elType": "widget",
+      "settings": {
+       "ekit_testimonial_style": "style5",
+       "ekit_testimonial_data": [
+        {
+         "client_name": "Sean M",
+         "designation": "",
+         "review": "I've worked with James on several occasions, and each time, the experience has been excellent. From installing a new panel to troubleshooting electrical issues, he's consistently delivered high-quality work. Always punctual, professional, and efficient. I trust him with all my electrical needs. Highly recommended.",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "_id": "5b7c9b7"
+        }
+       ],
+       "ekit_testimonial_left_right_spacing": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       },
+       "ekit_testimonial_top_bottom_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding": {
+        "unit": "em",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "ekit_testimonial_layout_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+       "ekit_testimonial_layout_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0)"
+       },
+       "ekit_testimonial_section_wraper_horizontal_alignment": "left",
+       "ekit_testimonial_section_wraper_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_color": "#7A7A7A",
+       "ekit_testimonial_description_typography_typography": "custom",
+       "ekit_testimonial_description_typography_font_family": "Inter",
+       "ekit_testimonial_description_typography_font_size": {
+        "unit": "rem",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_weight": "400",
+       "ekit_testimonial_description_typography_line_height": {
+        "unit": "em",
+        "size": 1.5,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_margin": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "0",
+        "bottom": "1.5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_testimonial_description_margin_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_margin_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_review_ratting_color": "#F77F00",
+       "ekit_testimonial_review_ratting_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_section_wathermark_color": "#F77F00",
+       "ekit_testimonial_client_name_normal_color": "#003049",
+       "ekit_testimonial_client_name_typography_typography": "custom",
+       "ekit_testimonial_client_name_typography_font_family": "Poppins",
+       "ekit_testimonial_client_name_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_weight": "500",
+       "ekit_testimonial_client_name_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_designation_normal_color": "#7A7A7A",
+       "ekit_testimonial_client_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_client_area_alignment": "client_left",
+       "ekit_testimonial_client_image_margin_": {
+        "unit": "px",
+        "top": "0",
+        "right": "10",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_testimonial_description_color": "globals/colors?id=text",
+        "ekit_testimonial_description_active_color": "",
+        "ekit_testimonial_description_typography_typography": "globals/typography?id=19dfd59",
+        "ekit_testimonial_review_ratting_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_section_wathermark_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_client_name_normal_color": "globals/colors?id=d673df5",
+        "ekit_testimonial_client_name_typography_typography": "globals/typography?id=eed848b",
+        "ekit_testimonial_designation_normal_color": "globals/colors?id=text",
+        "ekit_testimonial_designation_typography_typography": "globals/typography?id=8ec1d60"
+       },
+       "ekit_testimonial_left_right_spacing_tablet": {
+        "unit": "px",
+        "size": 5,
+        "sizes": []
+       },
+       "ekit_testimonial_slidetoshow_tablet": 1,
+       "ekit_testimonial_left_right_spacing_mobile": {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_layout_margin_mobile": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+       },
+       "ekit_testimonial_client_image_size": {
+        "unit": "px",
+        "size": 33,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-testimonial"
+     },
+     {
+      "id": "158d2d4",
+      "elType": "widget",
+      "settings": {
+       "ekit_testimonial_style": "style5",
+       "ekit_testimonial_data": [
+        {
+         "client_name": "Phil E",
+         "_id": "8c8670a",
+         "designation": "",
+         "review": "James with MVP has done several jobs for me including fixing can-lights, a garage door opener, diagnosing nonworking gfci outlets, installing light dimmer switches, and fixing an electric fireplace. With every job he has been professional and knowledgeable. I will happily continue to personally use his services and refer MVP Electric to my friends, family, and clients.",
+         "client_photo": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "source": "library",
+          "size": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        }
+       ],
+       "ekit_testimonial_left_right_spacing": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       },
+       "ekit_testimonial_top_bottom_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding": {
+        "unit": "em",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "ekit_testimonial_layout_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+       "ekit_testimonial_layout_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0)"
+       },
+       "ekit_testimonial_section_wraper_horizontal_alignment": "left",
+       "ekit_testimonial_section_wraper_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_color": "#7A7A7A",
+       "ekit_testimonial_description_typography_typography": "custom",
+       "ekit_testimonial_description_typography_font_family": "Inter",
+       "ekit_testimonial_description_typography_font_size": {
+        "unit": "rem",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_weight": "400",
+       "ekit_testimonial_description_typography_line_height": {
+        "unit": "em",
+        "size": 1.5,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_margin": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "0",
+        "bottom": "1.5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_testimonial_description_margin_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_margin_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_review_ratting_color": "#F77F00",
+       "ekit_testimonial_review_ratting_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_section_wathermark_color": "#F77F00",
+       "ekit_testimonial_client_name_normal_color": "#003049",
+       "ekit_testimonial_client_name_typography_typography": "custom",
+       "ekit_testimonial_client_name_typography_font_family": "Poppins",
+       "ekit_testimonial_client_name_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_weight": "500",
+       "ekit_testimonial_client_name_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_designation_normal_color": "#7A7A7A",
+       "ekit_testimonial_client_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_client_area_alignment": "client_left",
+       "ekit_testimonial_client_image_margin_": {
+        "unit": "px",
+        "top": "0",
+        "right": "10",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_testimonial_description_color": "globals/colors?id=text",
+        "ekit_testimonial_description_active_color": "",
+        "ekit_testimonial_description_typography_typography": "globals/typography?id=19dfd59",
+        "ekit_testimonial_review_ratting_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_section_wathermark_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_client_name_normal_color": "globals/colors?id=d673df5",
+        "ekit_testimonial_client_name_typography_typography": "globals/typography?id=eed848b",
+        "ekit_testimonial_designation_normal_color": "globals/colors?id=text",
+        "ekit_testimonial_designation_typography_typography": "globals/typography?id=8ec1d60"
+       },
+       "ekit_testimonial_left_right_spacing_tablet": {
+        "unit": "px",
+        "size": 5,
+        "sizes": []
+       },
+       "ekit_testimonial_slidetoshow_tablet": 1,
+       "ekit_testimonial_left_right_spacing_mobile": {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_layout_margin_mobile": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-testimonial"
+     },
+     {
+      "id": "6876344",
+      "elType": "widget",
+      "settings": {
+       "ekit_testimonial_style": "style5",
+       "ekit_testimonial_data": [
+        {
+         "_id": "6a1f4bf",
+         "client_name": "Julie P",
+         "designation": "",
+         "review": " We love James! He's attentive, thorough, organized, patient with our requests, and capable. I need to make my next list of electric needs and have him return.",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        }
+       ],
+       "ekit_testimonial_left_right_spacing": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       },
+       "ekit_testimonial_top_bottom_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding": {
+        "unit": "em",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "ekit_testimonial_layout_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+       "ekit_testimonial_layout_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0)"
+       },
+       "ekit_testimonial_section_wraper_horizontal_alignment": "left",
+       "ekit_testimonial_section_wraper_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_color": "#7A7A7A",
+       "ekit_testimonial_description_typography_typography": "custom",
+       "ekit_testimonial_description_typography_font_family": "Inter",
+       "ekit_testimonial_description_typography_font_size": {
+        "unit": "rem",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_weight": "400",
+       "ekit_testimonial_description_typography_line_height": {
+        "unit": "em",
+        "size": 1.5,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_margin": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "0",
+        "bottom": "1.5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_testimonial_description_margin_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_margin_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_review_ratting_color": "#F77F00",
+       "ekit_testimonial_review_ratting_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_section_wathermark_color": "#F77F00",
+       "ekit_testimonial_client_name_normal_color": "#003049",
+       "ekit_testimonial_client_name_typography_typography": "custom",
+       "ekit_testimonial_client_name_typography_font_family": "Poppins",
+       "ekit_testimonial_client_name_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_weight": "500",
+       "ekit_testimonial_client_name_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_designation_normal_color": "#7A7A7A",
+       "ekit_testimonial_client_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_client_area_alignment": "client_left",
+       "ekit_testimonial_client_image_margin_": {
+        "unit": "px",
+        "top": "0",
+        "right": "10",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_testimonial_description_color": "globals/colors?id=text",
+        "ekit_testimonial_description_active_color": "",
+        "ekit_testimonial_description_typography_typography": "globals/typography?id=19dfd59",
+        "ekit_testimonial_review_ratting_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_section_wathermark_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_client_name_normal_color": "globals/colors?id=d673df5",
+        "ekit_testimonial_client_name_typography_typography": "globals/typography?id=eed848b",
+        "ekit_testimonial_designation_normal_color": "globals/colors?id=text",
+        "ekit_testimonial_designation_typography_typography": "globals/typography?id=8ec1d60"
+       },
+       "ekit_testimonial_left_right_spacing_tablet": {
+        "unit": "px",
+        "size": 5,
+        "sizes": []
+       },
+       "ekit_testimonial_slidetoshow_tablet": 1,
+       "ekit_testimonial_left_right_spacing_mobile": {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_layout_margin_mobile": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-testimonial"
+     },
+     {
+      "id": "dcfef62",
+      "elType": "widget",
+      "settings": {
+       "ekit_testimonial_style": "style5",
+       "ekit_testimonial_data": [
+        {
+         "_id": "6a1f4bf",
+         "client_name": "Marta S",
+         "designation": "",
+         "review": "Showed up on time, diagnosed the problem and came back again to check on an appliance associated with the primary issue. All of the work was done in a timely manor and communicated throughout the project. Cost of project was appropriate for the work that was done.",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        }
+       ],
+       "ekit_testimonial_left_right_spacing": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       },
+       "ekit_testimonial_top_bottom_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding": {
+        "unit": "em",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "ekit_testimonial_layout_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+       "ekit_testimonial_layout_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0)"
+       },
+       "ekit_testimonial_section_wraper_horizontal_alignment": "left",
+       "ekit_testimonial_section_wraper_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_color": "#7A7A7A",
+       "ekit_testimonial_description_typography_typography": "custom",
+       "ekit_testimonial_description_typography_font_family": "Inter",
+       "ekit_testimonial_description_typography_font_size": {
+        "unit": "rem",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_weight": "400",
+       "ekit_testimonial_description_typography_line_height": {
+        "unit": "em",
+        "size": 1.5,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_margin": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "0",
+        "bottom": "1.5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_testimonial_description_margin_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_margin_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_review_ratting_color": "#F77F00",
+       "ekit_testimonial_review_ratting_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_section_wathermark_color": "#F77F00",
+       "ekit_testimonial_client_name_normal_color": "#003049",
+       "ekit_testimonial_client_name_typography_typography": "custom",
+       "ekit_testimonial_client_name_typography_font_family": "Poppins",
+       "ekit_testimonial_client_name_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_weight": "500",
+       "ekit_testimonial_client_name_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_designation_normal_color": "#7A7A7A",
+       "ekit_testimonial_client_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_client_area_alignment": "client_left",
+       "ekit_testimonial_client_image_margin_": {
+        "unit": "px",
+        "top": "0",
+        "right": "10",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_testimonial_description_color": "globals/colors?id=text",
+        "ekit_testimonial_description_active_color": "",
+        "ekit_testimonial_description_typography_typography": "globals/typography?id=19dfd59",
+        "ekit_testimonial_review_ratting_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_section_wathermark_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_client_name_normal_color": "globals/colors?id=d673df5",
+        "ekit_testimonial_client_name_typography_typography": "globals/typography?id=eed848b",
+        "ekit_testimonial_designation_normal_color": "globals/colors?id=text",
+        "ekit_testimonial_designation_typography_typography": "globals/typography?id=8ec1d60"
+       },
+       "ekit_testimonial_left_right_spacing_tablet": {
+        "unit": "px",
+        "size": 5,
+        "sizes": []
+       },
+       "ekit_testimonial_slidetoshow_tablet": 1,
+       "ekit_testimonial_left_right_spacing_mobile": {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_layout_margin_mobile": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-testimonial"
+     },
+     {
+      "id": "49afb1b",
+      "elType": "widget",
+      "settings": {
+       "ekit_testimonial_style": "style5",
+       "ekit_testimonial_data": [
+        {
+         "_id": "6a1f4bf",
+         "client_name": "Vipan M",
+         "designation": "",
+         "review": "I had the pleasure of working with James (MVP ELECTRIC).\nJames was knowledgeable and provided all the answers to my questions and that enabled me to reach a correct decision on what needs to be done and how it needs to be done. He was honest about what he told me and I got the feeling that he was looking after my interests.\nHis execution of the project was excellent, timely and exactly as he had conveyed upfront.\n\nWill I use him again?\nIn a hear beat.\nI am more than happy to recommend James (MVP).",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        }
+       ],
+       "ekit_testimonial_left_right_spacing": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       },
+       "ekit_testimonial_top_bottom_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding": {
+        "unit": "em",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "ekit_testimonial_layout_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+       "ekit_testimonial_layout_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0)"
+       },
+       "ekit_testimonial_section_wraper_horizontal_alignment": "left",
+       "ekit_testimonial_section_wraper_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_color": "#7A7A7A",
+       "ekit_testimonial_description_typography_typography": "custom",
+       "ekit_testimonial_description_typography_font_family": "Inter",
+       "ekit_testimonial_description_typography_font_size": {
+        "unit": "rem",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_weight": "400",
+       "ekit_testimonial_description_typography_line_height": {
+        "unit": "em",
+        "size": 1.5,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_margin": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "0",
+        "bottom": "1.5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_testimonial_description_margin_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_margin_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_review_ratting_color": "#F77F00",
+       "ekit_testimonial_review_ratting_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_section_wathermark_color": "#F77F00",
+       "ekit_testimonial_client_name_normal_color": "#003049",
+       "ekit_testimonial_client_name_typography_typography": "custom",
+       "ekit_testimonial_client_name_typography_font_family": "Poppins",
+       "ekit_testimonial_client_name_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_weight": "500",
+       "ekit_testimonial_client_name_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_designation_normal_color": "#7A7A7A",
+       "ekit_testimonial_client_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_client_area_alignment": "client_left",
+       "ekit_testimonial_client_image_margin_": {
+        "unit": "px",
+        "top": "0",
+        "right": "10",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_testimonial_description_color": "globals/colors?id=text",
+        "ekit_testimonial_description_active_color": "",
+        "ekit_testimonial_description_typography_typography": "globals/typography?id=19dfd59",
+        "ekit_testimonial_review_ratting_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_section_wathermark_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_client_name_normal_color": "globals/colors?id=d673df5",
+        "ekit_testimonial_client_name_typography_typography": "globals/typography?id=eed848b",
+        "ekit_testimonial_designation_normal_color": "globals/colors?id=text",
+        "ekit_testimonial_designation_typography_typography": "globals/typography?id=8ec1d60"
+       },
+       "ekit_testimonial_left_right_spacing_tablet": {
+        "unit": "px",
+        "size": 5,
+        "sizes": []
+       },
+       "ekit_testimonial_slidetoshow_tablet": 1,
+       "ekit_testimonial_left_right_spacing_mobile": {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_layout_margin_mobile": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-testimonial"
+     },
+     {
+      "id": "2daa2d2",
+      "elType": "widget",
+      "settings": {
+       "ekit_testimonial_style": "style5",
+       "ekit_testimonial_data": [
+        {
+         "_id": "6a1f4bf",
+         "client_name": "Michael K",
+         "designation": "",
+         "review": "James from MVP Electric was a pleasure to work with. He did the electrical work on whole home generator install at my home. James was very pleasant to work with, arrived on time, did the job quickly, was reasonably priced and did quality work that passed inspection the first time. I recommend James and intend to use him for any future electrical work.",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        }
+       ],
+       "ekit_testimonial_left_right_spacing": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       },
+       "ekit_testimonial_top_bottom_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding": {
+        "unit": "em",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "ekit_testimonial_layout_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+       "ekit_testimonial_layout_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0)"
+       },
+       "ekit_testimonial_section_wraper_horizontal_alignment": "left",
+       "ekit_testimonial_section_wraper_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_color": "#7A7A7A",
+       "ekit_testimonial_description_typography_typography": "custom",
+       "ekit_testimonial_description_typography_font_family": "Inter",
+       "ekit_testimonial_description_typography_font_size": {
+        "unit": "rem",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_weight": "400",
+       "ekit_testimonial_description_typography_line_height": {
+        "unit": "em",
+        "size": 1.5,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_margin": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "0",
+        "bottom": "1.5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_testimonial_description_margin_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_margin_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_review_ratting_color": "#F77F00",
+       "ekit_testimonial_review_ratting_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_section_wathermark_color": "#F77F00",
+       "ekit_testimonial_client_name_normal_color": "#003049",
+       "ekit_testimonial_client_name_typography_typography": "custom",
+       "ekit_testimonial_client_name_typography_font_family": "Poppins",
+       "ekit_testimonial_client_name_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_weight": "500",
+       "ekit_testimonial_client_name_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_designation_normal_color": "#7A7A7A",
+       "ekit_testimonial_client_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_client_area_alignment": "client_left",
+       "ekit_testimonial_client_image_margin_": {
+        "unit": "px",
+        "top": "0",
+        "right": "10",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_testimonial_description_color": "globals/colors?id=text",
+        "ekit_testimonial_description_active_color": "",
+        "ekit_testimonial_description_typography_typography": "globals/typography?id=19dfd59",
+        "ekit_testimonial_review_ratting_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_section_wathermark_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_client_name_normal_color": "globals/colors?id=d673df5",
+        "ekit_testimonial_client_name_typography_typography": "globals/typography?id=eed848b",
+        "ekit_testimonial_designation_normal_color": "globals/colors?id=text",
+        "ekit_testimonial_designation_typography_typography": "globals/typography?id=8ec1d60"
+       },
+       "ekit_testimonial_left_right_spacing_tablet": {
+        "unit": "px",
+        "size": 5,
+        "sizes": []
+       },
+       "ekit_testimonial_slidetoshow_tablet": 1,
+       "ekit_testimonial_left_right_spacing_mobile": {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_layout_margin_mobile": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-testimonial"
+     },
+     {
+      "id": "70e1bbc",
+      "elType": "widget",
+      "settings": {
+       "ekit_testimonial_style": "style5",
+       "ekit_testimonial_data": [
+        {
+         "_id": "6a1f4bf",
+         "client_name": "Jeff A",
+         "designation": "",
+         "review": "James was super responsive and helpful addressing my wiring switch issue. He carefully and professionally explained his process in solving the issue, and the final price was reasonable for his valuable time. I highly recommend MVP Electric for any electrical jobs, large or small.",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        }
+       ],
+       "ekit_testimonial_left_right_spacing": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       },
+       "ekit_testimonial_top_bottom_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding": {
+        "unit": "em",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "ekit_testimonial_layout_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+       "ekit_testimonial_layout_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0)"
+       },
+       "ekit_testimonial_section_wraper_horizontal_alignment": "left",
+       "ekit_testimonial_section_wraper_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_color": "#7A7A7A",
+       "ekit_testimonial_description_typography_typography": "custom",
+       "ekit_testimonial_description_typography_font_family": "Inter",
+       "ekit_testimonial_description_typography_font_size": {
+        "unit": "rem",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_weight": "400",
+       "ekit_testimonial_description_typography_line_height": {
+        "unit": "em",
+        "size": 1.5,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_margin": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "0",
+        "bottom": "1.5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_testimonial_description_margin_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_margin_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_review_ratting_color": "#F77F00",
+       "ekit_testimonial_review_ratting_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_section_wathermark_color": "#F77F00",
+       "ekit_testimonial_client_name_normal_color": "#003049",
+       "ekit_testimonial_client_name_typography_typography": "custom",
+       "ekit_testimonial_client_name_typography_font_family": "Poppins",
+       "ekit_testimonial_client_name_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_weight": "500",
+       "ekit_testimonial_client_name_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_designation_normal_color": "#7A7A7A",
+       "ekit_testimonial_client_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_client_area_alignment": "client_left",
+       "ekit_testimonial_client_image_margin_": {
+        "unit": "px",
+        "top": "0",
+        "right": "10",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_testimonial_description_color": "globals/colors?id=text",
+        "ekit_testimonial_description_active_color": "",
+        "ekit_testimonial_description_typography_typography": "globals/typography?id=19dfd59",
+        "ekit_testimonial_review_ratting_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_section_wathermark_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_client_name_normal_color": "globals/colors?id=d673df5",
+        "ekit_testimonial_client_name_typography_typography": "globals/typography?id=eed848b",
+        "ekit_testimonial_designation_normal_color": "globals/colors?id=text",
+        "ekit_testimonial_designation_typography_typography": "globals/typography?id=8ec1d60"
+       },
+       "ekit_testimonial_left_right_spacing_tablet": {
+        "unit": "px",
+        "size": 5,
+        "sizes": []
+       },
+       "ekit_testimonial_slidetoshow_tablet": 1,
+       "ekit_testimonial_left_right_spacing_mobile": {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_layout_margin_mobile": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-testimonial"
+     },
+     {
+      "id": "beaf80f",
+      "elType": "widget",
+      "settings": {
+       "ekit_testimonial_style": "style5",
+       "ekit_testimonial_data": [
+        {
+         "_id": "6a1f4bf",
+         "client_name": "Joel K",
+         "designation": "",
+         "review": "James installed a generator interlock system and ran conduit for a custom generator receptacle with excellent workmanship and attention to detail. His communication was clear, professional, and nearly instant, and it was obvious he knew his craft well. He was punctual, fair, and efficient, even troubleshooting and testing the system before leaving. Everything passed inspection, looks great, works perfectly, and I plan to hire him again. Highly recommended!",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        }
+       ],
+       "ekit_testimonial_left_right_spacing": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       },
+       "ekit_testimonial_top_bottom_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding": {
+        "unit": "em",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "ekit_testimonial_layout_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+       "ekit_testimonial_layout_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0)"
+       },
+       "ekit_testimonial_section_wraper_horizontal_alignment": "left",
+       "ekit_testimonial_section_wraper_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_color": "#7A7A7A",
+       "ekit_testimonial_description_typography_typography": "custom",
+       "ekit_testimonial_description_typography_font_family": "Inter",
+       "ekit_testimonial_description_typography_font_size": {
+        "unit": "rem",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_weight": "400",
+       "ekit_testimonial_description_typography_line_height": {
+        "unit": "em",
+        "size": 1.5,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_margin": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "0",
+        "bottom": "1.5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_testimonial_description_margin_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_margin_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_review_ratting_color": "#F77F00",
+       "ekit_testimonial_review_ratting_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_section_wathermark_color": "#F77F00",
+       "ekit_testimonial_client_name_normal_color": "#003049",
+       "ekit_testimonial_client_name_typography_typography": "custom",
+       "ekit_testimonial_client_name_typography_font_family": "Poppins",
+       "ekit_testimonial_client_name_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_weight": "500",
+       "ekit_testimonial_client_name_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_designation_normal_color": "#7A7A7A",
+       "ekit_testimonial_client_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_client_area_alignment": "client_left",
+       "ekit_testimonial_client_image_margin_": {
+        "unit": "px",
+        "top": "0",
+        "right": "10",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_testimonial_description_color": "globals/colors?id=text",
+        "ekit_testimonial_description_active_color": "",
+        "ekit_testimonial_description_typography_typography": "globals/typography?id=19dfd59",
+        "ekit_testimonial_review_ratting_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_section_wathermark_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_client_name_normal_color": "globals/colors?id=d673df5",
+        "ekit_testimonial_client_name_typography_typography": "globals/typography?id=eed848b",
+        "ekit_testimonial_designation_normal_color": "globals/colors?id=text",
+        "ekit_testimonial_designation_typography_typography": "globals/typography?id=8ec1d60"
+       },
+       "ekit_testimonial_left_right_spacing_tablet": {
+        "unit": "px",
+        "size": 5,
+        "sizes": []
+       },
+       "ekit_testimonial_slidetoshow_tablet": 1,
+       "ekit_testimonial_left_right_spacing_mobile": {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_layout_margin_mobile": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-testimonial"
+     },
+     {
+      "id": "17f682f",
+      "elType": "widget",
+      "settings": {
+       "ekit_testimonial_style": "style5",
+       "ekit_testimonial_data": [
+        {
+         "_id": "6a1f4bf",
+         "client_name": "Bob C",
+         "designation": "",
+         "review": "James Thorp installed a home Chargepoint EV charger for me. Very quick to respond - came out to assess the job same day. Emailed an estimate same day and completed the work just a few days later at my convenience. He included the charger and permit in his bid.",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        }
+       ],
+       "ekit_testimonial_left_right_spacing": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       },
+       "ekit_testimonial_top_bottom_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding": {
+        "unit": "em",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "ekit_testimonial_layout_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+       "ekit_testimonial_layout_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0)"
+       },
+       "ekit_testimonial_section_wraper_horizontal_alignment": "left",
+       "ekit_testimonial_section_wraper_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_color": "#7A7A7A",
+       "ekit_testimonial_description_typography_typography": "custom",
+       "ekit_testimonial_description_typography_font_family": "Inter",
+       "ekit_testimonial_description_typography_font_size": {
+        "unit": "rem",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_weight": "400",
+       "ekit_testimonial_description_typography_line_height": {
+        "unit": "em",
+        "size": 1.5,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_margin": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "0",
+        "bottom": "1.5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_testimonial_description_margin_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_margin_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_review_ratting_color": "#F77F00",
+       "ekit_testimonial_review_ratting_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_section_wathermark_color": "#F77F00",
+       "ekit_testimonial_client_name_normal_color": "#003049",
+       "ekit_testimonial_client_name_typography_typography": "custom",
+       "ekit_testimonial_client_name_typography_font_family": "Poppins",
+       "ekit_testimonial_client_name_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_weight": "500",
+       "ekit_testimonial_client_name_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_designation_normal_color": "#7A7A7A",
+       "ekit_testimonial_client_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_client_area_alignment": "client_left",
+       "ekit_testimonial_client_image_margin_": {
+        "unit": "px",
+        "top": "0",
+        "right": "10",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_testimonial_description_color": "globals/colors?id=text",
+        "ekit_testimonial_description_active_color": "",
+        "ekit_testimonial_description_typography_typography": "globals/typography?id=19dfd59",
+        "ekit_testimonial_review_ratting_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_section_wathermark_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_client_name_normal_color": "globals/colors?id=d673df5",
+        "ekit_testimonial_client_name_typography_typography": "globals/typography?id=eed848b",
+        "ekit_testimonial_designation_normal_color": "globals/colors?id=text",
+        "ekit_testimonial_designation_typography_typography": "globals/typography?id=8ec1d60"
+       },
+       "ekit_testimonial_left_right_spacing_tablet": {
+        "unit": "px",
+        "size": 5,
+        "sizes": []
+       },
+       "ekit_testimonial_slidetoshow_tablet": 1,
+       "ekit_testimonial_left_right_spacing_mobile": {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_layout_margin_mobile": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-testimonial"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ }
+]

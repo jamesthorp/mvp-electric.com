@@ -1,0 +1,522 @@
+[
+ {
+  "id": "c0aaa48",
+  "elType": "section",
+  "settings": {
+   "height": "min-height",
+   "custom_height": {
+    "unit": "vh",
+    "size": 40,
+    "sizes": []
+   },
+   "custom_height_tablet": {
+    "unit": "vh",
+    "size": 35,
+    "sizes": []
+   },
+   "custom_height_mobile": {
+    "unit": "vh",
+    "size": 25,
+    "sizes": []
+   },
+   "background_background": "classic",
+   "background_image": {
+    "id": "121",
+    "url": "https://mvp-electric.com/wp-content/uploads/2024/09/page.jpg"
+   },
+   "background_position": "top center",
+   "background_attachment": "scroll",
+   "background_repeat": "no-repeat",
+   "background_size": "cover",
+   "background_overlay_background": "classic",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.75,
+    "sizes": []
+   },
+   "__globals__": {
+    "background_overlay_color": "globals/colors?id=3ea37e2"
+   },
+   "_title": "Header page Section",
+   "background_color_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_color_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_color_b_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_color_b_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_gradient_angle_tablet": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_gradient_angle_mobile": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_gradient_position_tablet": "center center",
+   "background_gradient_position_mobile": "center center",
+   "background_hover_color_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_color_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_color_b_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_color_b_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_gradient_angle_tablet": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_gradient_angle_mobile": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_hover_gradient_position_tablet": "center center",
+   "background_hover_gradient_position_mobile": "center center",
+   "background_overlay_color_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_color_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_color_b_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_color_b_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_gradient_angle_tablet": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_gradient_angle_mobile": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_gradient_position_tablet": "center center",
+   "background_overlay_gradient_position_mobile": "center center",
+   "background_overlay_hover_color_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_color_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_color_b_stop_tablet": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_color_b_stop_mobile": {
+    "unit": "%",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_gradient_angle_tablet": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_gradient_angle_mobile": {
+    "unit": "deg",
+    "size": "",
+    "sizes": []
+   },
+   "background_overlay_hover_gradient_position_tablet": "center center",
+   "background_overlay_hover_gradient_position_mobile": "center center"
+  },
+  "elements": [
+   {
+    "id": "0480599",
+    "elType": "column",
+    "settings": {
+     "_column_size": 100,
+     "_inline_size": null,
+     "space_between_widgets": 0,
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "background_color_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_color_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_color_b_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_color_b_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_gradient_angle_tablet": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_gradient_angle_mobile": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_gradient_position_tablet": "center center",
+     "background_gradient_position_mobile": "center center",
+     "background_hover_color_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_color_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_color_b_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_color_b_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_gradient_angle_tablet": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_gradient_angle_mobile": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_hover_gradient_position_tablet": "center center",
+     "background_hover_gradient_position_mobile": "center center",
+     "background_overlay_color_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_color_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_color_b_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_color_b_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_gradient_angle_tablet": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_gradient_angle_mobile": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_gradient_position_tablet": "center center",
+     "background_overlay_gradient_position_mobile": "center center",
+     "background_overlay_hover_color_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_color_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_color_b_stop_tablet": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_color_b_stop_mobile": {
+      "unit": "%",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_gradient_angle_tablet": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_gradient_angle_mobile": {
+      "unit": "deg",
+      "size": "",
+      "sizes": []
+     },
+     "background_overlay_hover_gradient_position_tablet": "center center",
+     "background_overlay_hover_gradient_position_mobile": "center center"
+    },
+    "elements": [
+     {
+      "id": "8f10949",
+      "elType": "widget",
+      "settings": {
+       "title": "Contact",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=a52feea"
+       },
+       "header_size": "h1",
+       "_background_color_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_b_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_b_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_gradient_angle_tablet": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_gradient_angle_mobile": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_b_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_b_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_gradient_angle_tablet": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_gradient_angle_mobile": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "__dynamic__": {
+        "title": "[elementor-tag id=\"db9a13b\" name=\"page-title\" settings=\"%7B%7D\"]"
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "8a98d00",
+      "elType": "widget",
+      "settings": {
+       "editor": "<p>Home / Privacy Policy</p>",
+       "align": "left",
+       "__globals__": {
+        "text_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=5966ff9"
+       },
+       "_background_color_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_b_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_color_b_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_gradient_angle_tablet": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_gradient_angle_mobile": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_b_stop_tablet": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_color_b_stop_mobile": {
+        "unit": "%",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_gradient_angle_tablet": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       },
+       "_background_hover_gradient_angle_mobile": {
+        "unit": "deg",
+        "size": "",
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "text-editor"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "2e206b3f",
+  "elType": "container",
+  "settings": {
+   "boxed_width": {
+    "unit": "px",
+    "size": 1240,
+    "sizes": []
+   },
+   "padding": {
+    "unit": "px",
+    "top": "70",
+    "right": "0",
+    "bottom": "100",
+    "left": "0",
+    "isLinked": false
+   }
+  },
+  "elements": [
+   {
+    "id": "7a895a10",
+    "elType": "widget",
+    "settings": {
+     "editor": "<!-- wp:heading -->\n<div class=\"flex-shrink-0 flex flex-col relative items-end\">\n<div>\n<div class=\"pt-0\">\n<div class=\"gizmo-bot-avatar flex h-8 w-8 items-center justify-center overflow-hidden rounded-full\">\n<div class=\"relative p-1 rounded-sm flex items-center justify-center bg-token-main-surface-primary text-token-text-primary h-8 w-8\"><strong>MVP Electric Privacy Policy</strong></div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn\">\n<div class=\"flex-col gap-1 md:gap-3\">\n<div class=\"flex max-w-full flex-col flex-grow\">\n<div class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;]:mt-5\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"ea0e4402-8483-4077-8370-b68c5155d597\" data-message-model-slug=\"gpt-4o\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\">\n<div class=\"markdown prose w-full break-words dark:prose-invert dark\">\n<p>At MVP Electric, your privacy is important to us. This Privacy Policy outlines how we collect, use, and protect your information when you visit our website or engage with our services. By using our site, you consent to the practices described in this policy.</p>\n<p><strong>Information We Collect</strong><br /><strong>Personal Information</strong>:<br />We may collect personal information that you provide directly, including your name, email address, phone number, and mailing address when you contact us or fill out a form.</p>\n<p><strong>Non-Personal Information</strong>:<br />We also collect non-personal information automatically, such as your IP address, browser type, operating system, and pages visited on our website through cookies and analytics tools.</p>\n<p><strong>How We Use Your Information</strong><br />MVP Electric uses your information for the following purposes:</p>\n<ul>\n<li>To provide and improve our services.</li>\n<li>To respond to your inquiries and provide customer support.</li>\n<li>To send you promotional materials, newsletters, or other information that may be of interest to you (you can opt out at any time).</li>\n<li>To analyze website usage and enhance user experience.</li>\n</ul>\n<p> </p>\n<p><strong>Information Sharing</strong><br />We do not sell or rent your personal information to third parties. We may share your information with trusted third-party service providers who assist us in operating our website and conducting our business, as long as those parties agree to keep this information confidential.</p>\n<p><strong>Data Security</strong><br />We implement a variety of security measures to maintain the safety of your personal information. However, no method of transmission over the internet or electronic storage is 100% secure. Therefore, while we strive to protect your personal information, we cannot guarantee its absolute security.</p>\n<p><strong>Third-Party Websites</strong><br />Our website may contain links to third-party websites. We do not control these websites and are not responsible for their content or privacy practices. We encourage you to review the privacy policies of any third-party sites you visit.</p>\n<p><strong>Children’s Privacy</strong><br />Our services are not intended for children under the age of 13. We do not knowingly collect personal information from children. If we become aware that we have collected such information, we will take steps to delete it.</p>\n<p><strong>Changes to This Privacy Policy</strong><br />We may update this Privacy Policy periodically. We will notify you about significant changes in the way we treat personal information by sending a notice to the primary email address specified in your account or by placing a prominent notice on our site.</p>\n<p><strong>Contact Us</strong><br />If you have any questions or concerns about this Privacy Policy, please contact us at:</p>\n<div class=\"TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph\">(503) 922-6873 </div>\n<div class=\"TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph\">james@mvp-electric.com</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<!-- /wp:paragraph -->",
+     "text_color": "#000000"
+    },
+    "elements": [],
+    "widgetType": "text-editor"
+   }
+  ],
+  "isInner": false
+ }
+]
