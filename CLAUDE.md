@@ -28,6 +28,6 @@ back into `site-snapshots/<slug>/` and push it.
 Never publish fake reviews, ratings or stats. The service area is Multnomah, Washington and Clackamas
 counties only: no Salem, no Washington state. Phone/text: (503) 922-6873. CCB #253767. Oregon electrical contractor license #C2008.
 Confirmed true and OK to say: 10+ years of experience, licensed/bonded/insured, free estimates, permit
-included in bids, usually same-day replies. James installs solar himself (keep solar as a full service). Generators: everything from interlock kits and inlets to whole-home standby generators. Advertise panel upgrades, commercial work and new construction for GCs. The 4.9 / 60+ / 92% stats and the Jake Mulligan, Clara
+included in bids, usually same-day replies. James installs solar himself (keep solar as a full service). Generators: everything from interlock kits and inlets to whole-home standby generators. Advertise panel upgrades, commercial work and new construction for GCs. Takes all job sizes (no exclusions); do not advertise 24/7 emergency service unless James confirms it. The 4.9 / 60+ / 92% stats and the Jake Mulligan, Clara
 Hendricks and Nathan Voss testimonials were made up by a previous designer: never use them.
 The SEO plan and the copy waiting to go live are in `seo/`. Design options are in `design/`.
