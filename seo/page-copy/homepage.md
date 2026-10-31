@@ -47,7 +47,7 @@ Washington, Clackamas and Multnomah counties. Honest bids, clean work, passes in
 > "From installing a new panel to troubleshooting electrical issues, he's consistently delivered
 > high-quality work. Always punctual, professional, and efficient." **Sean M.**
 
-[ Read all reviews → ] [ Leave us a Google review → (your GBP review link) ]
+[ Read all reviews → ] [ Leave us a Google review → https://g.page/r/CclS31WKShfMEAI/review ]
 
 ---
 
