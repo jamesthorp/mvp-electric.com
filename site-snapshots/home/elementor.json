@@ -166,7 +166,8 @@
         "unit": "em",
         "size": 1,
         "sizes": []
-       }
+       },
+       "header_size": "p"
       },
       "elements": [],
       "widgetType": "heading"
@@ -175,7 +176,7 @@
       "id": "3d1a8a9b",
       "elType": "widget",
       "settings": {
-       "ekit_heading_title": "Portland's most trusted electricians",
+       "ekit_heading_title": "Licensed Electrician Serving the Portland Metro Area",
        "ekit_heading_sub_title": "Time has changed",
        "shadow_text_content": "bussiness",
        "ekit_heading_show_seperator": "",
@@ -274,7 +275,8 @@
         "unit": "%",
         "size": 100
        },
-       "_flex_size": "none"
+       "_flex_size": "none",
+       "ekit_heading_title_tag": "h1"
       },
       "elements": [],
       "widgetType": "elementskit-heading"
@@ -390,8 +392,8 @@
         "isLinked": false
        },
        "_margin": {
-        "unit": "%",
-        "top": "0",
+        "unit": "px",
+        "top": "16",
         "right": "0",
         "bottom": "0",
         "left": "0",
@@ -406,10 +408,10 @@
         "isLinked": true
        },
        "_margin_mobile": {
-        "unit": "%",
-        "top": "0",
+        "unit": "px",
+        "top": "20",
         "right": "0",
-        "bottom": "5",
+        "bottom": "0",
         "left": "0",
         "isLinked": false
        },

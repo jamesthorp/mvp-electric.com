@@ -22,6 +22,11 @@ James (the owner) gives instructions in plain English. Follow this every time:
 5. New pages are always created as **drafts** (`create`). Publish only after James approves the preview.
 6. Commit the snapshots and push, so git history is the undo log.
 
+Site-wide code lives in Code Snippets (wp-admin → Snippets), with source in `wordpress-plugin/snippets/`:
+"MVP Mobile Call Bar" (phone call/text bar) and "MVP Business Details" (Electrician JSON-LD + /llms.txt,
+generated from `seo/schema-electrician.html` and `seo/llms.txt`; regenerate and re-upload after editing those).
+Menus are edited via `/wp/v2/menu-items` (menu 3, "Services" parent id 23).
+
 To undo: copy the `elementor.json` from the relevant `_backups/` folder (or an older git commit)
 back into `site-snapshots/<slug>/` and push it.
 
