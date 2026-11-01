@@ -1,0 +1,2609 @@
+[
+ {
+  "id": "d3ddebc",
+  "elType": "section",
+  "settings": {
+   "height": "min-height",
+   "custom_height": {
+    "unit": "vh",
+    "size": 40,
+    "sizes": []
+   },
+   "custom_height_tablet": {
+    "unit": "vh",
+    "size": 35,
+    "sizes": []
+   },
+   "custom_height_mobile": {
+    "unit": "vh",
+    "size": 25,
+    "sizes": []
+   },
+   "background_background": "classic",
+   "background_image": {
+    "id": 392,
+    "url": "https://mvp-electric.com/wp-content/uploads/2024/10/Screen-Shot-2019-05-08-at-11.44.22-AM-1.webp",
+    "alt": "",
+    "source": "library",
+    "size": ""
+   },
+   "background_position": "center left",
+   "background_attachment": "scroll",
+   "background_repeat": "no-repeat",
+   "background_size": "cover",
+   "background_overlay_background": "classic",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.75,
+    "sizes": []
+   },
+   "__globals__": {
+    "background_overlay_color": "globals/colors?id=3ea37e2"
+   },
+   "_title": "Header page Section"
+  },
+  "elements": [
+   {
+    "id": "dcbb504",
+    "elType": "column",
+    "settings": {
+     "_column_size": 100,
+     "_inline_size": null,
+     "space_between_widgets": 0,
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     }
+    },
+    "elements": [
+     {
+      "id": "20bdbe5",
+      "elType": "widget",
+      "settings": {
+       "title": "Lighting Retrofits",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=a52feea"
+       },
+       "_margin": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "header_size": "h1",
+       "__dynamic__": [],
+       "_margin_mobile": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "10",
+        "left": "0",
+        "isLinked": false
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "b61c769",
+      "elType": "widget",
+      "settings": {
+       "editor": "<p>Swap to LED lighting to reduce costs and help the environment</p>",
+       "align": "left",
+       "__globals__": {
+        "text_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=5966ff9"
+       },
+       "_margin": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "_margin_tablet": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "_margin_mobile": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "_padding": {
+        "unit": "em",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "_padding_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       }
+      },
+      "elements": [],
+      "widgetType": "text-editor"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "b4c8bf2",
+  "elType": "section",
+  "settings": {
+   "structure": "20",
+   "padding": {
+    "unit": "em",
+    "top": "6",
+    "right": "1",
+    "bottom": "6",
+    "left": "1",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "padding_mobile": {
+    "unit": "em",
+    "top": "3",
+    "right": "0",
+    "bottom": "3",
+    "left": "0",
+    "isLinked": false
+   },
+   "_title": "Blog Detail Section",
+   "border_border": "solid",
+   "border_width": {
+    "unit": "px",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": false
+   },
+   "__globals__": {
+    "border_color": "globals/colors?id=5f01e9a",
+    "background_color": "globals/colors?id=9e7bcac"
+   }
+  },
+  "elements": [
+   {
+    "id": "2975fc1",
+    "elType": "column",
+    "settings": {
+     "_column_size": 50,
+     "_inline_size": 70,
+     "content_position": "top",
+     "space_between_widgets": 5,
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "2",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "_inline_size_tablet": 100
+    },
+    "elements": [
+     {
+      "id": "1c0f430",
+      "elType": "widget",
+      "settings": {
+       "title": "Illuminate The Future With Mvp Electric",
+       "header_size": "h5",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=431a99a",
+        "typography_typography": "globals/typography?id=eed848b"
+       },
+       "_margin": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "1",
+        "left": "0",
+        "isLinked": false
+       },
+       "_margin_tablet": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "_margin_mobile": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "5440bec",
+      "elType": "widget",
+      "settings": {
+       "ekit_heading_title": "Lighting Retrofits For A Brighter, Smarter Space",
+       "ekit_heading_sub_title": "Time has changed",
+       "shadow_text_content": "bussiness",
+       "ekit_heading_show_seperator": "",
+       "ekit_heading_focused_title_color": "#FCD30D",
+       "_margin": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "-2",
+        "left": "0",
+        "isLinked": false
+       },
+       "_margin_tablet": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "_margin_mobile": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "__globals__": {
+        "ekit_heading_title_color": "globals/colors?id=d673df5",
+        "ekit_heading_title_typography_typography": "",
+        "ekit_heading_focused_title_color": "globals/colors?id=431a99a",
+        "ekit_heading_focused_title_typography_typography": "globals/typography?id=ebf383e"
+       },
+       "ekit_heading_title_tag": "h3",
+       "ekit_heading_title_align_tablet": "text_left",
+       "ekit_heading_seperator_image": {
+        "id": "122",
+        "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+       },
+       "ekit_heading_title_color": "#0A1E51",
+       "ekit_heading_title_typography_typography": "custom",
+       "ekit_heading_title_typography_font_family": "Droid Arabic Naskh",
+       "ekit_heading_title_typography_font_size": {
+        "unit": "rem",
+        "size": 2.5,
+        "sizes": []
+       },
+       "ekit_heading_title_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": 1.6,
+        "sizes": []
+       },
+       "ekit_heading_title_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": 1.4,
+        "sizes": []
+       },
+       "ekit_heading_title_typography_font_weight": "600",
+       "ekit_heading_title_typography_line_height": {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+       },
+       "ekit_heading_title_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_typography": "custom",
+       "ekit_heading_focused_title_typography_font_family": "Droid Arabic Naskh",
+       "ekit_heading_focused_title_typography_font_size": {
+        "unit": "rem",
+        "size": 2.5,
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": 1.6,
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_weight": "600",
+       "ekit_heading_focused_title_typography_line_height": {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-heading"
+     },
+     {
+      "id": "e6a4275",
+      "elType": "widget",
+      "settings": {
+       "editor": "<p>Looking to upgrade your lighting system? MVP Electric specializes in energy-efficient lighting upgrades that not only enhance your space but also reduce energy consumption. Whether it’s for your home or business, our LED lighting solutions provide long-lasting, eco-friendly illumination, saving you money and enhancing your environment.</p>",
+       "_margin": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "_margin_tablet": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "_margin_mobile": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "__globals__": {
+        "text_color": "globals/colors?id=3723bbf",
+        "typography_typography": "globals/typography?id=19dfd59"
+       }
+      },
+      "elements": [],
+      "widgetType": "text-editor"
+     },
+     {
+      "id": "c54714e",
+      "elType": "section",
+      "settings": {
+       "gap": "no",
+       "structure": "20",
+       "margin": {
+        "unit": "%",
+        "top": "1",
+        "right": 0,
+        "bottom": "5",
+        "left": 0,
+        "isLinked": false
+       },
+       "margin_tablet": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "margin_mobile": {
+        "unit": "%",
+        "top": "0",
+        "right": 0,
+        "bottom": "10",
+        "left": 0,
+        "isLinked": false
+       }
+      },
+      "elements": [
+       {
+        "id": "54a176e",
+        "elType": "column",
+        "settings": {
+         "_column_size": 50,
+         "_inline_size": 45,
+         "_inline_size_tablet": 100,
+         "space_between_widgets": 10
+        },
+        "elements": [
+         {
+          "id": "20c83d6",
+          "elType": "widget",
+          "settings": {
+           "image": {
+            "id": 226,
+            "url": "https://mvp-electric.com/wp-content/uploads/2024/09/Lighting-Retrofits-2.jpg",
+            "alt": "",
+            "source": "library",
+            "size": ""
+           },
+           "image_size": "full",
+           "align": "left",
+           "width": {
+            "unit": "%",
+            "size": 85,
+            "sizes": []
+           },
+           "width_tablet": {
+            "unit": "%",
+            "size": 100,
+            "sizes": []
+           }
+          },
+          "elements": [],
+          "widgetType": "image"
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "fc94991",
+        "elType": "column",
+        "settings": {
+         "_column_size": 50,
+         "_inline_size": 54.999,
+         "_inline_size_tablet": 100,
+         "content_position": "bottom",
+         "space_between_widgets": 10,
+         "margin": {
+          "unit": "%",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         },
+         "margin_tablet": {
+          "unit": "%",
+          "top": "5",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         },
+         "margin_mobile": {
+          "unit": "%",
+          "top": "5",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         }
+        },
+        "elements": [
+         {
+          "id": "a45c6da",
+          "elType": "widget",
+          "settings": {
+           "title": "Why Opt For Lighting Retrofits? ",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 30,
+            "sizes": []
+           },
+           "typography_font_size_mobile": {
+            "unit": "px",
+            "size": 25,
+            "sizes": []
+           }
+          },
+          "elements": [],
+          "widgetType": "heading"
+         },
+         {
+          "id": "0ba5a08",
+          "elType": "widget",
+          "settings": {
+           "icon_list": [
+            {
+             "text": "Cut Energy Costs: Modern lighting systems are more efficient, significantly lowering your electricity bills.",
+             "selected_icon": {
+              "value": "icon icon-flash",
+              "library": "ekiticons"
+             },
+             "_id": "35c9bdf"
+            },
+            {
+             "text": "Improve Lighting Quality: Brighter, clearer lighting enhances safety, visibility, and aesthetics.",
+             "selected_icon": {
+              "value": "icon icon-flash",
+              "library": "ekiticons"
+             },
+             "_id": "51730b0"
+            },
+            {
+             "text": "Eco-Friendly: Using less energy helps reduce your carbon footprint and promotes sustainability.",
+             "selected_icon": {
+              "value": "icon icon-flash",
+              "library": "ekiticons"
+             },
+             "_id": "dd275ad"
+            }
+           ],
+           "icon_size": {
+            "unit": "px",
+            "size": 20,
+            "sizes": []
+           },
+           "icon_self_align": "left",
+           "__globals__": {
+            "icon_color": "globals/colors?id=431a99a",
+            "icon_typography_typography": "globals/typography?id=393ba08",
+            "text_color": "globals/colors?id=3ea37e2"
+           },
+           "space_between": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+           },
+           "icon_align": "left",
+           "_margin": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "3",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "-2",
+            "right": "0",
+            "bottom": "-2",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "text_indent": {
+            "unit": "px",
+            "size": 5,
+            "sizes": []
+           },
+           "space_between_tablet": {
+            "unit": "px",
+            "size": 10,
+            "sizes": []
+           }
+          },
+          "elements": [],
+          "widgetType": "icon-list"
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "f784d83",
+      "elType": "section",
+      "settings": {
+       "gap": "no",
+       "structure": "20",
+       "margin": {
+        "unit": "%",
+        "top": "1",
+        "right": 0,
+        "bottom": "5",
+        "left": 0,
+        "isLinked": false
+       },
+       "margin_tablet": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "margin_mobile": {
+        "unit": "%",
+        "top": "0",
+        "right": 0,
+        "bottom": "10",
+        "left": 0,
+        "isLinked": false
+       }
+      },
+      "elements": [
+       {
+        "id": "60d0f8e",
+        "elType": "column",
+        "settings": {
+         "_column_size": 50,
+         "_inline_size": 45,
+         "_inline_size_tablet": 100,
+         "space_between_widgets": 10
+        },
+        "elements": [
+         {
+          "id": "0d6c4b3",
+          "elType": "widget",
+          "settings": {
+           "image": {
+            "id": 859,
+            "url": "https://mvp-electric.com/wp-content/uploads/2026/10/covered-patio-recessed-lighting-heaters.webp",
+            "alt": "Covered patio with recessed lighting, ceiling fan and infrared heaters wired by MVP Electric in Oregon City, OR",
+            "source": "library",
+            "size": ""
+           },
+           "image_size": "full",
+           "align": "left",
+           "width": {
+            "unit": "%",
+            "size": 85,
+            "sizes": []
+           },
+           "width_tablet": {
+            "unit": "%",
+            "size": 100,
+            "sizes": []
+           }
+          },
+          "elements": [],
+          "widgetType": "image"
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "40badc5",
+        "elType": "column",
+        "settings": {
+         "_column_size": 50,
+         "_inline_size": 54.999,
+         "_inline_size_tablet": 100,
+         "content_position": "bottom",
+         "space_between_widgets": 10,
+         "margin": {
+          "unit": "%",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         },
+         "margin_tablet": {
+          "unit": "%",
+          "top": "5",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         },
+         "margin_mobile": {
+          "unit": "%",
+          "top": "9",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         }
+        },
+        "elements": [
+         {
+          "id": "5b949c4",
+          "elType": "widget",
+          "settings": {
+           "title": "What MVP Electric Offers? ",
+           "typography_typography": "custom",
+           "typography_font_size": {
+            "unit": "px",
+            "size": 30,
+            "sizes": []
+           }
+          },
+          "elements": [],
+          "widgetType": "heading"
+         },
+         {
+          "id": "66cab65",
+          "elType": "widget",
+          "settings": {
+           "editor": "<p>Our commercial lighting retrofits are designed to provide maximum efficiency and performance:</p>",
+           "align": "left",
+           "_margin": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "-1",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "-2",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "__globals__": {
+            "text_color": "globals/colors?id=3723bbf",
+            "typography_typography": "globals/typography?id=19dfd59"
+           }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+         },
+         {
+          "id": "2e22ba1",
+          "elType": "widget",
+          "settings": {
+           "icon_list": [
+            {
+             "text": "Energy-Efficient Lighting Upgrades: We replace outdated lighting systems with cutting-edge, cost-effective options that pay for themselves over time.",
+             "selected_icon": {
+              "value": "icon icon-flash",
+              "library": "ekiticons"
+             },
+             "_id": "35c9bdf"
+            },
+            {
+             "text": "LED Lighting Solutions: Our LED systems offer superior brightness, longer lifespan, and reduced energy consumption for both residential and commercial spaces.",
+             "selected_icon": {
+              "value": "icon icon-flash",
+              "library": "ekiticons"
+             },
+             "_id": "51730b0"
+            },
+            {
+             "text": "Commercial Lighting Retrofits: Tailored to meet the specific needs of your business, we deliver lighting upgrades that enhance productivity and comfort while reducing operational costs.",
+             "selected_icon": {
+              "value": "icon icon-flash",
+              "library": "ekiticons"
+             },
+             "_id": "dd275ad"
+            }
+           ],
+           "icon_size": {
+            "unit": "px",
+            "size": 20,
+            "sizes": []
+           },
+           "icon_self_align": "left",
+           "__globals__": {
+            "icon_color": "globals/colors?id=431a99a",
+            "icon_typography_typography": "globals/typography?id=393ba08",
+            "text_color": "globals/colors?id=3ea37e2"
+           },
+           "space_between": {
+            "unit": "px",
+            "size": 15,
+            "sizes": []
+           },
+           "icon_align": "left",
+           "_margin": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "3",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "-2",
+            "right": "0",
+            "bottom": "-2",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "text_indent": {
+            "unit": "px",
+            "size": 5,
+            "sizes": []
+           },
+           "space_between_tablet": {
+            "unit": "px",
+            "size": 10,
+            "sizes": []
+           }
+          },
+          "elements": [],
+          "widgetType": "icon-list"
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": false
+   },
+   {
+    "id": "012da27",
+    "elType": "column",
+    "settings": {
+     "_column_size": 50,
+     "_inline_size": 30,
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "space_between_widgets": 0,
+     "_inline_size_tablet": 100
+    },
+    "elements": [
+     {
+      "id": "19f8840",
+      "elType": "section",
+      "settings": {
+       "border_border": "solid",
+       "border_width": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 5,
+        "blur": 15,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0.05)"
+       },
+       "border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "__globals__": {
+        "border_color": "globals/colors?id=d673df5"
+       },
+       "margin": {
+        "unit": "px",
+        "top": "0",
+        "right": 0,
+        "bottom": "0",
+        "left": 0,
+        "isLinked": true
+       },
+       "padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       }
+      },
+      "elements": [
+       {
+        "id": "52a08e9",
+        "elType": "column",
+        "settings": {
+         "_column_size": 100,
+         "_inline_size": null,
+         "space_between_widgets": 0,
+         "padding": {
+          "unit": "em",
+          "top": "4",
+          "right": "2",
+          "bottom": "4",
+          "left": "2",
+          "isLinked": false
+         },
+         "padding_tablet": {
+          "unit": "em",
+          "top": "3",
+          "right": "2",
+          "bottom": "3",
+          "left": "2",
+          "isLinked": false
+         },
+         "padding_mobile": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+         },
+         "background_background": "classic",
+         "background_image": {
+          "id": "67",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/bghero.jpg"
+         },
+         "background_position": "center center",
+         "background_attachment": "scroll",
+         "background_repeat": "no-repeat",
+         "background_size": "cover",
+         "background_overlay_background": "classic",
+         "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.6,
+          "sizes": []
+         },
+         "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+         },
+         "__globals__": {
+          "background_overlay_color": "globals/colors?id=d673df5"
+         }
+        },
+        "elements": [
+         {
+          "id": "4ba89a0",
+          "elType": "widget",
+          "settings": {
+           "title": "Ready To Retrofit? ",
+           "align": "center",
+           "_margin": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "10",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "2",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "2",
+            "left": "0",
+            "isLinked": false
+           },
+           "_padding": {
+            "unit": "em",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "_padding_tablet": {
+            "unit": "em",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "_padding_mobile": {
+            "unit": "em",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "__globals__": {
+            "title_color": "globals/colors?id=9e7bcac",
+            "typography_typography": ""
+           },
+           "header_size": "h3",
+           "title_color": "#FFFFFF",
+           "typography_typography": "custom",
+           "typography_font_family": "Droid Arabic Naskh",
+           "typography_font_size": {
+            "unit": "rem",
+            "size": 2.5,
+            "sizes": []
+           },
+           "typography_font_size_tablet": {
+            "unit": "rem",
+            "size": 2,
+            "sizes": []
+           },
+           "typography_font_size_mobile": {
+            "unit": "rem",
+            "size": 1.7,
+            "sizes": []
+           },
+           "typography_font_weight": "600",
+           "typography_line_height": {
+            "unit": "em",
+            "size": 1.1,
+            "sizes": []
+           },
+           "typography_word_spacing": {
+            "unit": "em",
+            "size": "",
+            "sizes": []
+           }
+          },
+          "elements": [],
+          "widgetType": "heading"
+         },
+         {
+          "id": "17f55a1",
+          "elType": "widget",
+          "settings": {
+           "align": "center",
+           "_margin": {
+            "unit": "%",
+            "top": "0",
+            "right": "5",
+            "bottom": "10",
+            "left": "5",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "0",
+            "right": "5",
+            "bottom": "5",
+            "left": "5",
+            "isLinked": false
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "10",
+            "left": "0",
+            "isLinked": false
+           },
+           "_padding": {
+            "unit": "em",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           },
+           "_padding_tablet": {
+            "unit": "em",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "_padding_mobile": {
+            "unit": "em",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "__globals__": {
+            "text_color": "globals/colors?id=c52b1d1",
+            "typography_typography": "globals/typography?id=19dfd59"
+           },
+           "editor": "<p>It’s time to shine smarter. Let MVP Electric transform your space with modern, energy-saving lighting solutions. Contact us today to learn more about our retrofit services!</p>"
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+         },
+         {
+          "id": "9ad83f8",
+          "elType": "widget",
+          "settings": {
+           "text": "Contact Now",
+           "align": "center",
+           "hover_animation": "shrink",
+           "border_radius": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           },
+           "text_padding": {
+            "unit": "px",
+            "top": "18",
+            "right": "35",
+            "bottom": "18",
+            "left": "35",
+            "isLinked": false
+           },
+           "_margin": {
+            "unit": "%",
+            "top": "5",
+            "right": "0",
+            "bottom": "5",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "_padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           },
+           "__globals__": {
+            "typography_typography": "globals/typography?id=5966ff9",
+            "button_text_color": "globals/colors?id=9e7bcac",
+            "background_color": "globals/colors?id=431a99a"
+           },
+           "link": {
+            "url": "https://mvp-electric.com/contact-us/",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+           }
+          },
+          "elements": [],
+          "widgetType": "button"
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     },
+     {
+      "id": "4634fe5",
+      "elType": "widget",
+      "settings": [],
+      "elements": [],
+      "widgetType": "spacer"
+     },
+     {
+      "id": "e15ed31",
+      "elType": "section",
+      "settings": {
+       "border_border": "solid",
+       "border_width": {
+        "unit": "px",
+        "top": "3",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "box_shadow_box_shadow_type": "yes",
+       "box_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 5,
+        "blur": 15,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0.05)"
+       },
+       "border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "__globals__": {
+        "border_color": "globals/colors?id=d673df5"
+       }
+      },
+      "elements": [
+       {
+        "id": "ebc0929",
+        "elType": "column",
+        "settings": {
+         "_column_size": 100,
+         "_inline_size": null,
+         "space_between_widgets": 0,
+         "padding": {
+          "unit": "em",
+          "top": "2",
+          "right": "2",
+          "bottom": "2",
+          "left": "2",
+          "isLinked": true
+         },
+         "padding_tablet": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+         },
+         "padding_mobile": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+         }
+        },
+        "elements": [
+         {
+          "id": "e71f6bd",
+          "elType": "widget",
+          "settings": {
+           "title": "Social Media",
+           "align": "left",
+           "__globals__": {
+            "typography_typography": "globals/typography?id=24b3dba",
+            "title_color": "globals/colors?id=d673df5"
+           },
+           "header_size": "h4"
+          },
+          "elements": [],
+          "widgetType": "heading"
+         },
+         {
+          "id": "0cea540",
+          "elType": "widget",
+          "settings": {
+           "width": {
+            "unit": "%",
+            "size": 25,
+            "sizes": []
+           },
+           "align": "left",
+           "text": "Divider",
+           "weight": {
+            "unit": "px",
+            "size": 2,
+            "sizes": []
+           },
+           "gap": {
+            "unit": "px",
+            "size": 20,
+            "sizes": []
+           },
+           "__globals__": {
+            "color": "globals/colors?id=d673df5"
+           }
+          },
+          "elements": [],
+          "widgetType": "divider"
+         },
+         {
+          "id": "fbd74c2",
+          "elType": "widget",
+          "settings": {
+           "ekit_socialmedia_style": "both",
+           "ekit_socialmedia_icon_padding_right": {
+            "unit": "px",
+            "size": 10,
+            "sizes": []
+           },
+           "ekit_socialmedai_list_align": "left",
+           "ekit_socialmedia_add_icons": [
+            {
+             "ekit_socialmedia_icons": {
+              "value": "icon icon-facebook-1",
+              "library": "ekiticons"
+             },
+             "ekit_socialmedia_label": "Facebook",
+             "ekit_socialmedia_icon_hover_bg_color": "",
+             "_id": "ccd561e",
+             "ekit_socialmedia_border_hover_width": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "1",
+              "left": "0",
+              "isLinked": false
+             },
+             "__globals__": {
+              "ekit_socialmedia_icon_color": "globals/colors?id=d673df5",
+              "ekit_socialmedia_icon_hover_color": "globals/colors?id=431a99a"
+             },
+             "ekit_socialmedia_link": {
+              "url": "https://www.facebook.com/profile.php?id=61569705050483",
+              "is_external": "",
+              "nofollow": "",
+              "custom_attributes": ""
+             }
+            }
+           ],
+           "ekit_socialmedai_list_item_align": "left",
+           "ekit_socialmedai_list_display": "block",
+           "ekit_socialmedai_list_border_radius": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           },
+           "ekit_socialmedai_list_padding": {
+            "unit": "em",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+           },
+           "ekit_socialmedai_list_padding_tablet": {
+            "unit": "em",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "ekit_socialmedai_list_padding_mobile": {
+            "unit": "em",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "ekit_socialmedai_list_margin": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           },
+           "ekit_socialmedai_list_icon_size": {
+            "unit": "px",
+            "size": 26,
+            "sizes": []
+           },
+           "ekit_socialmedai_list_line_height": {
+            "unit": "px",
+            "size": 40,
+            "sizes": []
+           },
+           "__globals__": {
+            "ekit_socialmedai_list_typography_typography": "globals/typography?id=2025997"
+           }
+          },
+          "elements": [],
+          "widgetType": "elementskit-social-media"
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "5df0f33",
+  "elType": "section",
+  "settings": {
+   "padding": {
+    "unit": "em",
+    "top": "4",
+    "right": "1",
+    "bottom": "3",
+    "left": "1",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "padding_mobile": {
+    "unit": "em",
+    "top": "3",
+    "right": "1",
+    "bottom": "3",
+    "left": "1",
+    "isLinked": false
+   },
+   "__globals__": {
+    "background_color": "globals/colors?id=7e8a24d",
+    "background_overlay_color": "globals/colors?id=9e7bcac"
+   },
+   "_title": "Experteise Section",
+   "structure": "20",
+   "background_image": {
+    "url": "",
+    "id": "",
+    "size": "",
+    "alt": "",
+    "source": "library"
+   },
+   "background_position": "center center",
+   "background_attachment": "scroll",
+   "background_repeat": "no-repeat",
+   "background_size": "cover",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.85,
+    "sizes": []
+   },
+   "background_background": "classic"
+  },
+  "elements": [
+   {
+    "id": "44d6fff",
+    "elType": "column",
+    "settings": {
+     "_column_size": 50,
+     "_inline_size": null,
+     "content_position": "top",
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "3",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "_inline_size_tablet": 100
+    },
+    "elements": [
+     {
+      "id": "662300f",
+      "elType": "widget",
+      "settings": {
+       "title": "Reasons To Choose Us\n",
+       "header_size": "h6",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=431a99a",
+        "typography_typography": "globals/typography?id=eed848b"
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "8032114",
+      "elType": "widget",
+      "settings": {
+       "ekit_heading_title": "Expert Electricians, Exceptional Results",
+       "ekit_heading_sub_title": "Time has changed",
+       "shadow_text_content": "bussiness",
+       "ekit_heading_show_seperator": "",
+       "ekit_heading_focused_title_color": "#D62828",
+       "_margin": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "-2",
+        "left": "0",
+        "isLinked": false
+       },
+       "_margin_tablet": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "_margin_mobile": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "-8",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_heading_title_color": "globals/colors?id=d673df5",
+        "ekit_heading_title_typography_typography": "globals/typography?id=69ead49",
+        "ekit_heading_focused_title_color": "globals/colors?id=431a99a",
+        "ekit_heading_focused_title_typography_typography": "globals/typography?id=69ead49"
+       },
+       "ekit_heading_title_typography_typography": "custom",
+       "ekit_heading_title_typography_font_family": "Droid Arabic Naskh",
+       "ekit_heading_title_typography_font_size": {
+        "unit": "rem",
+        "size": 3,
+        "sizes": []
+       },
+       "ekit_heading_title_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_title_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": 2,
+        "sizes": []
+       },
+       "ekit_heading_title_typography_font_weight": "700",
+       "ekit_heading_title_typography_line_height": {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+       },
+       "ekit_heading_title_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_typography": "custom",
+       "ekit_heading_focused_title_typography_font_family": "Droid Arabic Naskh",
+       "ekit_heading_focused_title_typography_font_size": {
+        "unit": "rem",
+        "size": 3,
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_weight": "700",
+       "ekit_heading_focused_title_typography_line_height": {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_seperator_image": {
+        "id": "122",
+        "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-heading"
+     },
+     {
+      "id": "17ee3be",
+      "elType": "section",
+      "settings": {
+       "gap": "no",
+       "structure": "20"
+      },
+      "elements": [
+       {
+        "id": "1727530",
+        "elType": "column",
+        "settings": {
+         "_column_size": 50,
+         "_inline_size": null,
+         "space_between_widgets": 10,
+         "padding": {
+          "unit": "em",
+          "top": "0",
+          "right": "1",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         },
+         "padding_tablet": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+         },
+         "padding_mobile": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+         }
+        },
+        "elements": [
+         {
+          "id": "8181890",
+          "elType": "widget",
+          "settings": {
+           "icon_list": [
+            {
+             "text": "Skilled Expertise",
+             "selected_icon": {
+              "value": "icon icon-flash",
+              "library": "ekiticons"
+             },
+             "_id": "027176c"
+            }
+           ],
+           "icon_align": "left",
+           "icon_size": {
+            "unit": "px",
+            "size": 17,
+            "sizes": []
+           },
+           "icon_self_align": "left",
+           "_margin": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "2",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "__globals__": {
+            "icon_color": "globals/colors?id=431a99a",
+            "text_color": "globals/colors?id=3ea37e2",
+            "icon_typography_typography": "globals/typography?id=c233643"
+           }
+          },
+          "elements": [],
+          "widgetType": "icon-list"
+         },
+         {
+          "id": "5193ef8",
+          "elType": "widget",
+          "settings": {
+           "editor": "Team of highly trained professional electricians."
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+         },
+         {
+          "id": "ecc9c87",
+          "elType": "widget",
+          "settings": {
+           "icon_list": [
+            {
+             "text": "Cutting-edge Solutions",
+             "selected_icon": {
+              "value": "icon icon-flash",
+              "library": "ekiticons"
+             },
+             "_id": "027176c"
+            }
+           ],
+           "icon_align": "left",
+           "icon_size": {
+            "unit": "px",
+            "size": 17,
+            "sizes": []
+           },
+           "icon_self_align": "left",
+           "_margin": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "2",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "__globals__": {
+            "icon_color": "globals/colors?id=431a99a",
+            "text_color": "globals/colors?id=3ea37e2",
+            "icon_typography_typography": "globals/typography?id=c233643"
+           }
+          },
+          "elements": [],
+          "widgetType": "icon-list"
+         },
+         {
+          "id": "bb5be00",
+          "elType": "widget",
+          "settings": {
+           "editor": "Offer the latest in electrical technology.\n\n"
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+         }
+        ],
+        "isInner": true
+       },
+       {
+        "id": "10edc48",
+        "elType": "column",
+        "settings": {
+         "_column_size": 50,
+         "_inline_size": null,
+         "padding": {
+          "unit": "em",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "1",
+          "isLinked": false
+         },
+         "padding_tablet": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+         },
+         "padding_mobile": {
+          "unit": "em",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+         }
+        },
+        "elements": [
+         {
+          "id": "caec00c",
+          "elType": "widget",
+          "settings": {
+           "editor": "When it comes to electrical work, you need a team that delivers top-notch results, on time and within budget. At MVP Electric, we go beyond the basics to ensure your satisfaction, offering innovative solutions and reliable service every step of the way.\n\n",
+           "align": "left",
+           "_margin": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "-1",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "__globals__": {
+            "text_color": "globals/colors?id=3723bbf",
+            "typography_typography": "globals/typography?id=19dfd59"
+           }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": false
+   },
+   {
+    "id": "ec49006",
+    "elType": "column",
+    "settings": {
+     "_column_size": 50,
+     "_inline_size": null,
+     "content_position": "center",
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "_inline_size_tablet": 100,
+     "space_between_widgets": 0,
+     "space_between_widgets_tablet": 0,
+     "margin_mobile": {
+      "unit": "%",
+      "top": "0",
+      "right": "0",
+      "bottom": "5",
+      "left": "0",
+      "isLinked": false
+     },
+     "margin_tablet": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     }
+    },
+    "elements": [],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "f690f3f",
+  "elType": "section",
+  "settings": {
+   "structure": "20",
+   "background_background": "classic",
+   "background_image": {
+    "id": "76",
+    "url": "https://mvp-electric.com/wp-content/uploads/2024/09/bg1.jpg"
+   },
+   "background_position": "center center",
+   "background_attachment": "scroll",
+   "background_repeat": "no-repeat",
+   "background_size": "cover",
+   "background_overlay_background": "classic",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.85,
+    "sizes": []
+   },
+   "padding": {
+    "unit": "em",
+    "top": "4",
+    "right": "1",
+    "bottom": "4",
+    "left": "1",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "padding_mobile": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "__globals__": {
+    "background_color": "globals/colors?id=7e8a24d",
+    "background_overlay_color": "globals/colors?id=7e8a24d"
+   },
+   "_title": "Testimonial Section",
+   "hide_desktop": "hidden-desktop",
+   "hide_tablet": "hidden-tablet",
+   "hide_mobile": "hidden-mobile"
+  },
+  "elements": [
+   {
+    "id": "b1f7d0a",
+    "elType": "column",
+    "settings": {
+     "_column_size": 50,
+     "_inline_size": 30,
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "_inline_size_tablet": 50,
+     "margin_mobile": {
+      "unit": "%",
+      "top": "0",
+      "right": "0",
+      "bottom": "5",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "4b28541",
+      "elType": "section",
+      "settings": {
+       "gap": "no",
+       "background_background": "classic",
+       "margin": {
+        "unit": "%",
+        "top": "0",
+        "right": 0,
+        "bottom": "0",
+        "left": 0,
+        "isLinked": false
+       },
+       "margin_tablet": {
+        "unit": "%",
+        "top": "-30",
+        "right": 0,
+        "bottom": "0",
+        "left": 0,
+        "isLinked": false
+       },
+       "margin_mobile": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "__globals__": {
+        "background_color": "globals/colors?id=d673df5"
+       }
+      },
+      "elements": [
+       {
+        "id": "4098937",
+        "elType": "column",
+        "settings": {
+         "_column_size": 100,
+         "_inline_size": null,
+         "content_position": "top",
+         "margin": {
+          "unit": "%",
+          "top": "0",
+          "right": "2",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+         },
+         "margin_tablet": {
+          "unit": "%",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+         },
+         "margin_mobile": {
+          "unit": "%",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+         },
+         "padding": {
+          "unit": "em",
+          "top": "3",
+          "right": "3",
+          "bottom": "3",
+          "left": "3",
+          "isLinked": false
+         },
+         "padding_tablet": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+         },
+         "padding_mobile": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+         },
+         "z_index": 1
+        },
+        "elements": [
+         {
+          "id": "d0a207b",
+          "elType": "widget",
+          "settings": {
+           "title": "Client Reviews\n",
+           "header_size": "h5",
+           "align": "left",
+           "__globals__": {
+            "title_color": "globals/colors?id=431a99a",
+            "typography_typography": "globals/typography?id=eed848b"
+           }
+          },
+          "elements": [],
+          "widgetType": "heading"
+         },
+         {
+          "id": "37ca094",
+          "elType": "widget",
+          "settings": {
+           "title": "Real Stories\n",
+           "__globals__": {
+            "title_color": "globals/colors?id=9e7bcac",
+            "typography_typography": "globals/typography?id=ebf383e"
+           }
+          },
+          "elements": [],
+          "widgetType": "heading"
+         },
+         {
+          "id": "89ad7cd",
+          "elType": "widget",
+          "settings": {
+           "editor": "<p>At MVP Electric, we pride ourselves on delivering exceptional service, and our clients agree! Here’s what some of them have to say about their experience working with us.</p>",
+           "align": "left",
+           "_margin": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "-3",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "_padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           },
+           "__globals__": {
+            "text_color": "globals/colors?id=c52b1d1",
+            "typography_typography": "globals/typography?id=19dfd59"
+           }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+         }
+        ],
+        "isInner": true
+       }
+      ],
+      "isInner": true
+     }
+    ],
+    "isInner": false
+   },
+   {
+    "id": "5c04b1c",
+    "elType": "column",
+    "settings": {
+     "_column_size": 50,
+     "_inline_size": 70,
+     "content_position": "bottom",
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "1",
+      "right": "0",
+      "bottom": "1",
+      "left": "0",
+      "isLinked": false
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "_inline_size_tablet": 50
+    },
+    "elements": [
+     {
+      "id": "1a3cdd9",
+      "elType": "widget",
+      "settings": {
+       "ekit_testimonial_style": "style5",
+       "ekit_testimonial_data": [
+        {
+         "client_name": "Phil E.",
+         "_id": "8c8670a",
+         "designation": "Lighting & repairs",
+         "review": "\"James with MVP has done several jobs for me including fixing can-lights, a garage door opener, diagnosing nonworking gfci outlets, installing light dimmer switches, and fixing an electric fireplace. With every job he has been professional and knowledgeable.\"",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        },
+        {
+         "client_name": "Sean M.",
+         "_id": "e3de3db",
+         "designation": "Panel & troubleshooting",
+         "review": "\"I've worked with James on several occasions, and each time, the experience has been excellent. From installing a new panel to troubleshooting electrical issues, he's consistently delivered high-quality work. Always punctual, professional, and efficient.\"",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        },
+        {
+         "_id": "6a1f4bf",
+         "client_name": "Jeff A.",
+         "designation": "Wiring repair",
+         "review": "\"James was super responsive and helpful addressing my wiring switch issue. … I highly recommend MVP Electric for any electrical jobs, large or small.\"",
+         "client_photo": {
+          "id": "",
+          "url": ""
+         },
+         "client_logo": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         },
+         "client_logo_active": {
+          "id": "122",
+          "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+         }
+        }
+       ],
+       "ekit_testimonial_left_right_spacing": {
+        "unit": "px",
+        "size": 10,
+        "sizes": []
+       },
+       "ekit_testimonial_top_bottom_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_slidetoshow": 2,
+       "ekit_testimonial_layout_padding": {
+        "unit": "em",
+        "top": "2",
+        "right": "2",
+        "bottom": "2",
+        "left": "2",
+        "isLinked": false
+       },
+       "ekit_testimonial_layout_padding_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_border_radius": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_layout_shadow_box_shadow_type": "yes",
+       "ekit_testimonial_layout_shadow_box_shadow": {
+        "horizontal": 0,
+        "vertical": 0,
+        "blur": 10,
+        "spread": 0,
+        "color": "rgba(0, 0, 0, 0)"
+       },
+       "ekit_testimonial_section_wraper_horizontal_alignment": "left",
+       "ekit_testimonial_section_wraper_padding": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_color": "#7A7A7A",
+       "ekit_testimonial_description_typography_typography": "custom",
+       "ekit_testimonial_description_typography_font_family": "Inter",
+       "ekit_testimonial_description_typography_font_size": {
+        "unit": "rem",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_font_weight": "400",
+       "ekit_testimonial_description_typography_line_height": {
+        "unit": "em",
+        "size": 1.5,
+        "sizes": []
+       },
+       "ekit_testimonial_description_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_description_margin": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "0",
+        "bottom": "1.5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_testimonial_description_margin_tablet": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_description_margin_mobile": {
+        "unit": "em",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "ekit_testimonial_review_ratting_color": "#F77F00",
+       "ekit_testimonial_review_ratting_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_section_wathermark_color": "#F77F00",
+       "ekit_testimonial_client_name_normal_color": "#003049",
+       "ekit_testimonial_client_name_typography_typography": "custom",
+       "ekit_testimonial_client_name_typography_font_family": "Poppins",
+       "ekit_testimonial_client_name_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_font_weight": "500",
+       "ekit_testimonial_client_name_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_client_name_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_testimonial_designation_normal_color": "#7A7A7A",
+       "ekit_testimonial_client_spacing": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "ekit_testimonial_client_area_alignment": "client_left",
+       "ekit_testimonial_client_image_margin_": {
+        "unit": "px",
+        "top": "0",
+        "right": "10",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_testimonial_description_color": "globals/colors?id=text",
+        "ekit_testimonial_description_active_color": "",
+        "ekit_testimonial_description_typography_typography": "globals/typography?id=19dfd59",
+        "ekit_testimonial_review_ratting_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_section_wathermark_color": "globals/colors?id=431a99a",
+        "ekit_testimonial_client_name_normal_color": "globals/colors?id=d673df5",
+        "ekit_testimonial_client_name_typography_typography": "globals/typography?id=eed848b",
+        "ekit_testimonial_designation_normal_color": "globals/colors?id=text",
+        "ekit_testimonial_designation_typography_typography": "globals/typography?id=8ec1d60"
+       },
+       "ekit_testimonial_left_right_spacing_tablet": {
+        "unit": "px",
+        "size": 5,
+        "sizes": []
+       },
+       "ekit_testimonial_slidetoshow_tablet": 1,
+       "ekit_testimonial_left_right_spacing_mobile": {
+        "unit": "px",
+        "size": 1,
+        "sizes": []
+       },
+       "ekit_testimonial_layout_margin_mobile": {
+        "unit": "px",
+        "size": 0,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-testimonial"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ }
+]
