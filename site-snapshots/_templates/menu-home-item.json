@@ -1,0 +1,94 @@
+{
+ "id": 21,
+ "title": {
+  "raw": "Home",
+  "rendered": "Home"
+ },
+ "status": "publish",
+ "url": "https://mvp-electric.com/",
+ "attr_title": "",
+ "description": "",
+ "type": "post_type",
+ "type_label": "Page",
+ "object": "page",
+ "object_id": 14,
+ "parent": 0,
+ "menu_order": 1,
+ "target": "",
+ "classes": [
+  ""
+ ],
+ "xfn": [
+  ""
+ ],
+ "invalid": false,
+ "meta": [],
+ "menus": 3,
+ "_links": {
+  "self": [
+   {
+    "href": "https://mvp-electric.com/wp-json/wp/v2/menu-items/21",
+    "targetHints": {
+     "allow": [
+      "GET",
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
+     ]
+    }
+   }
+  ],
+  "collection": [
+   {
+    "href": "https://mvp-electric.com/wp-json/wp/v2/menu-items"
+   }
+  ],
+  "about": [
+   {
+    "href": "https://mvp-electric.com/wp-json/wp/v2/types/nav_menu_item"
+   }
+  ],
+  "wp:term": [
+   {
+    "taxonomy": "nav_menu",
+    "embeddable": true,
+    "href": "https://mvp-electric.com/wp-json/wp/v2/menus?post=21"
+   }
+  ],
+  "wp:menu-item-object": [
+   {
+    "post_type": "page",
+    "embeddable": true,
+    "href": "https://mvp-electric.com/wp-json/wp/v2/pages/14"
+   }
+  ],
+  "wp:action-publish": [
+   {
+    "href": "https://mvp-electric.com/wp-json/wp/v2/menu-items/21"
+   }
+  ],
+  "wp:action-unfiltered-html": [
+   {
+    "href": "https://mvp-electric.com/wp-json/wp/v2/menu-items/21"
+   }
+  ],
+  "wp:action-create-menus": [
+   {
+    "href": "https://mvp-electric.com/wp-json/wp/v2/menu-items/21"
+   }
+  ],
+  "wp:action-assign-menus": [
+   {
+    "href": "https://mvp-electric.com/wp-json/wp/v2/menu-items/21"
+   }
+  ],
+  "curies": [
+   {
+    "name": "wp",
+    "href": "https://api.w.org/{rel}",
+    "templated": true
+   }
+  ]
+ }
+}

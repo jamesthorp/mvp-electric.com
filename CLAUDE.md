@@ -26,6 +26,9 @@ Site-wide code lives in Code Snippets (wp-admin → Snippets), with source in `w
 "MVP Mobile Call Bar" (phone call/text bar) and "MVP Business Details" (Electrician JSON-LD + /llms.txt,
 generated from `seo/schema-electrician.html` and `seo/llms.txt`; regenerate and re-upload after editing those).
 Menus are edited via `/wp/v2/menu-items` (menu 3, "Services" parent id 23).
+The header menu fits only 5 top-level items at 1280px (no "Home" item; the logo links home).
+The theme colors links white: give any link inside body text an inline style
+(`color:#0b1f4b;text-decoration:underline;font-weight:600`, or `#fcd30d` on dark backgrounds) and check it on the live page.
 
 To undo: copy the `elementor.json` from the relevant `_backups/` folder (or an older git commit)
 back into `site-snapshots/<slug>/` and push it.

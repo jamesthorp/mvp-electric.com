@@ -356,7 +356,7 @@
       "id": "1d76d98",
       "elType": "widget",
       "settings": {
-       "editor": "<p>Ready to power up your electric vehicle with convenience? MVP Electric offers top-notch home EV charger installation and EV charging solutions for businesses. Whether you're looking to enhance your personal charging experience or provide charging stations for your customers, we provide fast, reliable setups that keep you on the move. Not sure your panel can handle a charger? We’ll check, and handle the <a href=\"https://mvp-electric.com/panel-upgrades/\">panel upgrade</a> if you need one.</p>",
+       "editor": "<p>Ready to power up your electric vehicle with convenience? MVP Electric offers top-notch home EV charger installation and EV charging solutions for businesses. Whether you're looking to enhance your personal charging experience or provide charging stations for your customers, we provide fast, reliable setups that keep you on the move. Not sure your panel can handle a charger? We’ll check, and handle the <a style=\"color:#0b1f4b;text-decoration:underline;font-weight:600\" href=\"https://mvp-electric.com/panel-upgrades/\">panel upgrade</a> if you need one.</p>",
        "_margin": {
         "unit": "%",
         "top": "0",

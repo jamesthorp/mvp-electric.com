@@ -1519,7 +1519,7 @@
           "id": "1983b32",
           "elType": "widget",
           "settings": {
-           "editor": "<p>At MVP Electric, we're more than just an electrical company — we're a passionate team committed to making every project a success. From <strong>solar panel installations</strong> to <strong>EV charging stations</strong>, we deliver reliable, innovative solutions for homes and businesses.</p><p>Our skilled electricians pride themselves on creating efficient, well-lit spaces with expert care. Whether you're a homeowner, contractor, or business owner, let us power your world with precision and a personal touch.</p><p><strong>BRIGHT SOLUTIONS FOR A BRIGHTER TOMORROW</strong></p>",
+           "editor": "<p>At MVP Electric, we're more than just an electrical company — we're a passionate team committed to making every project a success. From <strong>solar panel installations</strong> to <strong>EV charging stations</strong>, we deliver reliable, innovative solutions for homes and businesses.</p><p>Our skilled electricians pride themselves on creating efficient, well-lit spaces with expert care. Whether you're a homeowner, contractor, or business owner, let us power your world with precision and a personal touch.</p><p>We serve the whole Oregon side of the Portland metro: <a style=\"color:#0b1f4b;text-decoration:underline;font-weight:600\" href=\"https://mvp-electric.com/washington-county-electrician/\">Washington County</a>, <a style=\"color:#0b1f4b;text-decoration:underline;font-weight:600\" href=\"https://mvp-electric.com/clackamas-county-electrician/\">Clackamas County</a> and <a style=\"color:#0b1f4b;text-decoration:underline;font-weight:600\" href=\"https://mvp-electric.com/portland-electrician/\">Portland / Multnomah County</a>.</p><p><strong>BRIGHT SOLUTIONS FOR A BRIGHTER TOMORROW</strong></p>",
            "align": "left",
            "_margin": {
             "unit": "%",
@@ -3982,7 +3982,7 @@
             "left": "",
             "isLinked": true
            },
-           "editor": "<p>Are you prepared for the next big storm and power outage? Solar panels with battery backup, or a <a href=\"https://mvp-electric.com/generator-installation/\">backup generator</a>, give you savings and peace of mind. Embrace the power of renewable energy with our custom solar energy solutions. </p>"
+           "editor": "<p>Are you prepared for the next big storm and power outage? Solar panels with battery backup, or a <a style=\"color:#fcd30d;text-decoration:underline;font-weight:600\" href=\"https://mvp-electric.com/generator-installation/\">backup generator</a>, give you savings and peace of mind. Embrace the power of renewable energy with our custom solar energy solutions. </p>"
           },
           "elements": [],
           "widgetType": "text-editor"
