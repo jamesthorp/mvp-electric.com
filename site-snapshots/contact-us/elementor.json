@@ -770,7 +770,7 @@
        "input_size": "lg",
        "show_labels": "",
        "button_size": "md",
-       "button_width": "25",
+       "button_width": "50",
        "step_next_label": "Next",
        "step_previous_label": "Previous",
        "button_text": "Get My Free Estimate",
@@ -807,7 +807,8 @@
         "isLinked": true
        },
        "button_content_align": "start",
-       "submissions_metadata": []
+       "submissions_metadata": [],
+       "button_width_mobile": "100"
       },
       "elements": [],
       "widgetType": "form"
