@@ -1,0 +1,914 @@
+[
+ {
+  "id": "529d3981",
+  "elType": "section",
+  "settings": {
+   "height": "min-height",
+   "custom_height": {
+    "unit": "vh",
+    "size": 40,
+    "sizes": []
+   },
+   "custom_height_tablet": {
+    "unit": "vh",
+    "size": 35,
+    "sizes": []
+   },
+   "custom_height_mobile": {
+    "unit": "vh",
+    "size": 25,
+    "sizes": []
+   },
+   "background_background": "classic",
+   "background_image": {
+    "id": "121",
+    "url": "https://mvp-electric.com/wp-content/uploads/2024/09/page.jpg"
+   },
+   "background_position": "top center",
+   "background_attachment": "scroll",
+   "background_repeat": "no-repeat",
+   "background_size": "cover",
+   "background_overlay_background": "classic",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.75,
+    "sizes": []
+   },
+   "__globals__": {
+    "background_overlay_color": "globals/colors?id=3ea37e2"
+   },
+   "_title": "Header page Section"
+  },
+  "elements": [
+   {
+    "id": "68917f76",
+    "elType": "column",
+    "settings": {
+     "_column_size": 100,
+     "_inline_size": null,
+     "space_between_widgets": 0,
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     }
+    },
+    "elements": [
+     {
+      "id": "25190b8a",
+      "elType": "widget",
+      "settings": {
+       "title": "Contact Us",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=a52feea"
+       },
+       "header_size": "h1",
+       "_margin_mobile": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "10",
+        "left": "0",
+        "isLinked": false
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "47252ef4",
+      "elType": "widget",
+      "settings": {
+       "editor": "<p>Home / Contact Us</p>",
+       "align": "left",
+       "__globals__": {
+        "text_color": "globals/colors?id=9e7bcac",
+        "typography_typography": "globals/typography?id=5966ff9"
+       }
+      },
+      "elements": [],
+      "widgetType": "text-editor"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "1a8ec391",
+  "elType": "section",
+  "settings": {
+   "padding": {
+    "unit": "em",
+    "top": "6",
+    "right": "1",
+    "bottom": "6",
+    "left": "1",
+    "isLinked": false
+   },
+   "padding_tablet": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "padding_mobile": {
+    "unit": "em",
+    "top": "3",
+    "right": "1",
+    "bottom": "3",
+    "left": "1",
+    "isLinked": false
+   },
+   "__globals__": {
+    "background_color": "globals/colors?id=d673df5",
+    "background_overlay_color": "globals/colors?id=9e7bcac"
+   },
+   "_title": "Contact Section",
+   "background_image": {
+    "url": "",
+    "id": "",
+    "size": "",
+    "alt": "",
+    "source": "library"
+   },
+   "background_position": "center center",
+   "background_attachment": "scroll",
+   "background_repeat": "no-repeat",
+   "background_size": "cover",
+   "background_overlay_opacity": {
+    "unit": "px",
+    "size": 0.85,
+    "sizes": []
+   },
+   "height": "min-height",
+   "custom_height": {
+    "unit": "vh",
+    "size": 40,
+    "sizes": []
+   },
+   "custom_height_tablet": {
+    "unit": "vh",
+    "size": "",
+    "sizes": []
+   },
+   "custom_height_mobile": {
+    "unit": "vh",
+    "size": "",
+    "sizes": []
+   },
+   "column_position": "stretch",
+   "background_overlay_color": "#FFFFFF",
+   "structure": "20"
+  },
+  "elements": [
+   {
+    "id": "1613bb89",
+    "elType": "column",
+    "settings": {
+     "_column_size": 50,
+     "_inline_size": null,
+     "content_position": "top",
+     "padding": {
+      "unit": "em",
+      "top": "1",
+      "right": "4",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": false
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "1",
+      "right": "1",
+      "bottom": "1",
+      "left": "1",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "_inline_size_tablet": 100,
+     "margin_mobile": {
+      "unit": "%",
+      "top": "0",
+      "right": "0",
+      "bottom": "10",
+      "left": "0",
+      "isLinked": false
+     }
+    },
+    "elements": [
+     {
+      "id": "1b6435b2",
+      "elType": "widget",
+      "settings": {
+       "title": "Ready To Power Up Your Project? ",
+       "header_size": "h6",
+       "align": "left",
+       "__globals__": {
+        "title_color": "globals/colors?id=accent",
+        "typography_typography": "globals/typography?id=eed848b"
+       }
+      },
+      "elements": [],
+      "widgetType": "heading"
+     },
+     {
+      "id": "6186e0f9",
+      "elType": "widget",
+      "settings": {
+       "ekit_heading_title": "Get In Touch With MVP Electric Today! ",
+       "ekit_heading_sub_title": "Time has changed",
+       "shadow_text_content": "bussiness",
+       "ekit_heading_show_seperator": "",
+       "ekit_heading_focused_title_color": "#D62828",
+       "_margin": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "-2",
+        "left": "0",
+        "isLinked": false
+       },
+       "_margin_tablet": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "_margin_mobile": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "-8",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_heading_title_color": "globals/colors?id=d673df5",
+        "ekit_heading_title_typography_typography": "globals/typography?id=69ead49",
+        "ekit_heading_focused_title_color": "globals/colors?id=431a99a",
+        "ekit_heading_focused_title_typography_typography": "globals/typography?id=69ead49"
+       },
+       "ekit_heading_title_typography_typography": "custom",
+       "ekit_heading_title_typography_font_family": "Droid Arabic Naskh",
+       "ekit_heading_title_typography_font_size": {
+        "unit": "rem",
+        "size": 3,
+        "sizes": []
+       },
+       "ekit_heading_title_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_title_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_title_typography_font_weight": "700",
+       "ekit_heading_title_typography_line_height": {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+       },
+       "ekit_heading_title_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_typography": "custom",
+       "ekit_heading_focused_title_typography_font_family": "Droid Arabic Naskh",
+       "ekit_heading_focused_title_typography_font_size": {
+        "unit": "rem",
+        "size": 3,
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_weight": "700",
+       "ekit_heading_focused_title_typography_line_height": {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_seperator_image": {
+        "id": "122",
+        "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-heading"
+     },
+     {
+      "id": "78375d99",
+      "elType": "widget",
+      "settings": {
+       "editor": "<p>Have questions or need a quote? Reach out now, and let's illuminate your ideas!</p>",
+       "align": "left",
+       "_margin": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+       },
+       "_margin_tablet": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "_margin_mobile": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "__globals__": {
+        "text_color": "globals/colors?id=3723bbf",
+        "typography_typography": "globals/typography?id=19dfd59"
+       }
+      },
+      "elements": [],
+      "widgetType": "text-editor"
+     },
+     {
+      "id": "4b0d92a0",
+      "elType": "widget",
+      "settings": {
+       "icon_list": [
+        {
+         "text": "(503) 922-6873 ",
+         "selected_icon": {
+          "value": "icon icon-phone1",
+          "library": "ekiticons"
+         },
+         "_id": "c7f62a0",
+         "link": {
+          "url": "tel:+15039226873",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        },
+        {
+         "text": "james@mvp-electric.com",
+         "selected_icon": {
+          "value": "icon icon-email1",
+          "library": "ekiticons"
+         },
+         "_id": "b5cca32",
+         "link": {
+          "url": "mailto:james@mvp-electric.com",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+         }
+        }
+       ],
+       "space_between": {
+        "unit": "px",
+        "size": 30,
+        "sizes": []
+       },
+       "icon_align": "left",
+       "icon_size": {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+       },
+       "icon_self_align": "left",
+       "text_indent": {
+        "unit": "px",
+        "size": 20,
+        "sizes": []
+       },
+       "__globals__": {
+        "icon_color": "",
+        "text_color": "",
+        "icon_typography_typography": "globals/typography?id=eed848b"
+       },
+       "icon_color": "#0A1E51",
+       "icon_typography_typography": "custom",
+       "icon_typography_font_family": "Poppins",
+       "icon_typography_font_size": {
+        "unit": "rem",
+        "size": 1.2,
+        "sizes": []
+       },
+       "icon_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": 1.1,
+        "sizes": []
+       },
+       "icon_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": 0.9,
+        "sizes": []
+       },
+       "icon_typography_font_weight": "500",
+       "icon_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+       },
+       "text_color": "#000000"
+      },
+      "elements": [],
+      "widgetType": "icon-list"
+     },
+     {
+      "id": "4c8e818",
+      "elType": "widget",
+      "settings": {
+       "ekit_socialmedai_list_align": "left",
+       "ekit_socialmedia_add_icons": [
+        {
+         "ekit_socialmedia_label": "Facebook",
+         "_id": "218b796",
+         "__globals__": {
+          "ekit_socialmedia_icon_color": "",
+          "ekit_socialmedia_icon_hover_color": "globals/colors?id=accent"
+         },
+         "ekit_socialmedia_icon_hover_bg_color": "",
+         "ekit_socialmedia_icon_color": "#0A1E51",
+         "ekit_socialmedia_link": {
+          "url": "https://www.facebook.com/profile.php?id=61569705050483",
+          "is_external": "on"
+         }
+        }
+       ],
+       "ekit_socialmedai_list_margin": {
+        "unit": "px",
+        "top": "5",
+        "right": "25",
+        "bottom": "5",
+        "left": "0",
+        "isLinked": false
+       },
+       "ekit_socialmedai_list_icon_size": {
+        "unit": "px",
+        "size": 21,
+        "sizes": []
+       },
+       "ekit_socialmedai_list_icon_size_mobile": {
+        "unit": "px",
+        "size": 21,
+        "sizes": []
+       },
+       "animation_duration": "slow",
+       "_animation_delay": 75,
+       "ekit_socialmedai_list_align_tablet": "center",
+       "ekit_socialmedai_list_align_mobile": "left"
+      },
+      "elements": [],
+      "widgetType": "elementskit-social-media"
+     }
+    ],
+    "isInner": false
+   },
+   {
+    "id": "7d7bc626",
+    "elType": "column",
+    "settings": {
+     "_column_size": 50,
+     "_inline_size": null,
+     "background_background": "classic",
+     "box_shadow_box_shadow_type": "yes",
+     "box_shadow_box_shadow": {
+      "horizontal": 0,
+      "vertical": 0,
+      "blur": 10,
+      "spread": 0,
+      "color": "rgba(0, 0, 0, 0.2)"
+     },
+     "margin": {
+      "unit": "%",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+     },
+     "margin_tablet": {
+      "unit": "%",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "margin_mobile": {
+      "unit": "%",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "padding": {
+      "unit": "em",
+      "top": "5",
+      "right": "5",
+      "bottom": "5",
+      "left": "5",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "2",
+      "right": "2",
+      "bottom": "2",
+      "left": "2",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "2",
+      "right": "2",
+      "bottom": "2",
+      "left": "2",
+      "isLinked": true
+     },
+     "z_index": 1,
+     "__globals__": {
+      "background_color": "globals/colors?id=9e7bcac"
+     },
+     "_inline_size_tablet": 100
+    },
+    "elements": [
+     {
+      "id": "1507106f",
+      "elType": "widget",
+      "settings": {
+       "ekit_heading_title": "GET IN TOUCH",
+       "ekit_heading_sub_title": "Time has changed",
+       "shadow_text_content": "bussiness",
+       "ekit_heading_show_seperator": "",
+       "ekit_heading_focused_title_color": "#D62828",
+       "_margin": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "-5",
+        "left": "0",
+        "isLinked": false
+       },
+       "_margin_tablet": {
+        "unit": "%",
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": "",
+        "isLinked": true
+       },
+       "_margin_mobile": {
+        "unit": "%",
+        "top": "0",
+        "right": "0",
+        "bottom": "-8",
+        "left": "0",
+        "isLinked": false
+       },
+       "__globals__": {
+        "ekit_heading_title_color": "globals/colors?id=d673df5",
+        "ekit_heading_title_typography_typography": "globals/typography?id=24b3dba",
+        "ekit_heading_focused_title_color": "globals/colors?id=431a99a",
+        "ekit_heading_focused_title_typography_typography": "globals/typography?id=69ead49"
+       },
+       "ekit_heading_focused_title_typography_typography": "custom",
+       "ekit_heading_focused_title_typography_font_family": "Droid Arabic Naskh",
+       "ekit_heading_focused_title_typography_font_size": {
+        "unit": "rem",
+        "size": 3,
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_size_tablet": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_size_mobile": {
+        "unit": "rem",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_font_weight": "700",
+       "ekit_heading_focused_title_typography_line_height": {
+        "unit": "em",
+        "size": 1.1,
+        "sizes": []
+       },
+       "ekit_heading_focused_title_typography_word_spacing": {
+        "unit": "em",
+        "size": "",
+        "sizes": []
+       },
+       "ekit_heading_title_tag": "h4",
+       "ekit_heading_seperator_image": {
+        "id": "122",
+        "url": "https://mvp-electric.com/wp-content/uploads/2024/09/placeholder-2.png"
+       }
+      },
+      "elements": [],
+      "widgetType": "elementskit-heading"
+     },
+     {
+      "id": "63e3b575",
+      "elType": "widget",
+      "settings": {
+       "align": "left",
+       "__globals__": {
+        "text_color": "globals/colors?id=3723bbf",
+        "typography_typography": "globals/typography?id=19dfd59"
+       },
+       "editor": "<p>We look forward to hearing from you. We promise to get back to you ASAP so we can show you that you are our MVP.</p>"
+      },
+      "elements": [],
+      "widgetType": "text-editor"
+     },
+     {
+      "id": "a4eeb8c",
+      "elType": "widget",
+      "settings": {
+       "form_name": "New Form",
+       "form_fields": [
+        {
+         "custom_id": "name",
+         "field_label": "First Name Here",
+         "placeholder": "First Name Here",
+         "width": "50",
+         "dynamic": {
+          "active": true
+         },
+         "_id": "430df72"
+        },
+        {
+         "_id": "e11c2e1",
+         "field_label": "Last Name",
+         "placeholder": "Last Name Here",
+         "width": "50",
+         "custom_id": "field_e11c2e1"
+        },
+        {
+         "custom_id": "email",
+         "field_type": "email",
+         "required": "true",
+         "field_label": "Email",
+         "placeholder": "Email",
+         "_id": "6d13ad1"
+        },
+        {
+         "custom_id": "message",
+         "field_type": "textarea",
+         "field_label": "Message",
+         "placeholder": "Message",
+         "_id": "8636b95"
+        },
+        {
+         "_id": "a3abcc2",
+         "field_type": "recaptcha",
+         "custom_id": "field_a3abcc2"
+        }
+       ],
+       "input_size": "lg",
+       "show_labels": "",
+       "button_size": "md",
+       "button_width": "25",
+       "step_next_label": "Next",
+       "step_previous_label": "Previous",
+       "button_text": "Send",
+       "email_to": "info@mvp-electric.com",
+       "email_subject": "New message from MVP Electric",
+       "email_content": "[all-fields]",
+       "email_from": "email@mvp-electric.com",
+       "email_from_name": "MVP Electric",
+       "form_metadata": [],
+       "email_to_2": "forclient888@gmail.com",
+       "email_subject_2": "New message from &quot;MVP Electric&quot;",
+       "email_content_2": "[all-fields]",
+       "email_from_2": "email@mvp-electric.com",
+       "email_from_name_2": "MVP Electric",
+       "email_reply_to_2": "forclient888@gmail.com",
+       "mailchimp_fields_map": [],
+       "drip_fields_map": [],
+       "activecampaign_fields_map": [],
+       "getresponse_fields_map": [],
+       "convertkit_fields_map": [],
+       "mailerlite_fields_map": [],
+       "success_message": "Your submission was successful.",
+       "error_message": "Your submission failed because of an error.",
+       "server_message": "Your submission failed because of a server error.",
+       "invalid_message": "Your submission failed because the form is invalid.",
+       "required_field_message": "This field is required.",
+       "field_background_color": "#F6F7FA",
+       "field_border_width": {
+        "unit": "px",
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": true
+       },
+       "button_content_align": "start",
+       "submissions_metadata": []
+      },
+      "elements": [],
+      "widgetType": "form"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ },
+ {
+  "id": "3322cd50",
+  "elType": "section",
+  "settings": {
+   "layout": "full_width",
+   "custom_height": {
+    "unit": "vh",
+    "size": 62,
+    "sizes": []
+   },
+   "custom_height_tablet": {
+    "unit": "vh",
+    "size": "",
+    "sizes": []
+   },
+   "custom_height_mobile": {
+    "unit": "vh",
+    "size": "",
+    "sizes": []
+   },
+   "margin": {
+    "unit": "%",
+    "top": "-10",
+    "right": 0,
+    "bottom": "0",
+    "left": 0,
+    "isLinked": false
+   },
+   "margin_tablet": {
+    "unit": "%",
+    "top": "-15",
+    "right": 0,
+    "bottom": "0",
+    "left": 0,
+    "isLinked": false
+   },
+   "margin_mobile": {
+    "unit": "%",
+    "top": "0",
+    "right": 0,
+    "bottom": "0",
+    "left": 0,
+    "isLinked": true
+   },
+   "padding": {
+    "unit": "em",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": true
+   },
+   "padding_tablet": {
+    "unit": "em",
+    "top": "",
+    "right": "",
+    "bottom": "",
+    "left": "",
+    "isLinked": true
+   },
+   "padding_mobile": {
+    "unit": "em",
+    "top": "0",
+    "right": "0",
+    "bottom": "0",
+    "left": "0",
+    "isLinked": true
+   }
+  },
+  "elements": [
+   {
+    "id": "6c36bf78",
+    "elType": "column",
+    "settings": {
+     "_column_size": 100,
+     "_inline_size": null,
+     "padding": {
+      "unit": "em",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": true
+     },
+     "padding_tablet": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     },
+     "padding_mobile": {
+      "unit": "em",
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": "",
+      "isLinked": true
+     }
+    },
+    "elements": [
+     {
+      "id": "1de375d5",
+      "elType": "widget",
+      "settings": {
+       "address": "Beaverton Oregon",
+       "height": {
+        "unit": "vh",
+        "size": 50,
+        "sizes": []
+       },
+       "height_tablet": {
+        "unit": "vh",
+        "size": 40,
+        "sizes": []
+       },
+       "height_mobile": {
+        "unit": "vh",
+        "size": "",
+        "sizes": []
+       },
+       "zoom": {
+        "unit": "px",
+        "size": 7,
+        "sizes": []
+       }
+      },
+      "elements": [],
+      "widgetType": "google_maps"
+     }
+    ],
+    "isInner": false
+   }
+  ],
+  "isInner": false
+ }
+]
