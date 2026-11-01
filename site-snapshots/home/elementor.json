@@ -360,7 +360,7 @@
       "id": "1dbd7c0b",
       "elType": "widget",
       "settings": {
-       "text": "Learn More",
+       "text": "Get a Free Estimate",
        "align": "left",
        "selected_icon": {
         "value": "icon icon-arrow-right",
@@ -452,7 +452,7 @@
         "sizes": []
        },
        "link": {
-        "url": "https://mvp-electric.com/about-us/",
+        "url": "https://mvp-electric.com/contact-us/",
         "is_external": "",
         "nofollow": "",
         "custom_attributes": ""
