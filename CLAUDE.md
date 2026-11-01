@@ -40,6 +40,7 @@ included in bids, usually same-day replies. James installs solar himself (keep s
 Google Business Profile: kgmid /g/11x1y37m3z (https://www.google.com/search?kgmid=/g/11x1y37m3z).
 Google rating as of 2026-10-31: 5.0 stars from 19 reviews (ask James for the current count before
 changing it on the site). Show it as page text only; no aggregateRating schema (Google disallows self-serving ratings).
+Bing Places and Apple Business Connect listings set up by James on 2026-11-01 (links not yet added to schema sameAs).
 Google review request link (use for "Leave us a Google review" buttons): https://g.page/r/CclS31WKShfMEAI/review
 James confirmed the homepage "Satisfaction Guarantee" box stays as is.
 Hours: Mon–Fri 8am–5pm; Saturday available for emergencies (say "Saturday emergency service available"; never "24/7"). The 4.9 / 60+ / 92% stats and the Jake Mulligan, Clara
