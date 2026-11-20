@@ -356,7 +356,7 @@
       "id": "1d76d98",
       "elType": "widget",
       "settings": {
-       "editor": "<p>Ready to power up your electric vehicle with convenience? MVP Electric offers top-notch home EV charger installation and EV charging solutions for businesses. Whether you're looking to enhance your personal charging experience or provide charging stations for your customers, we provide fast, reliable setups that keep you on the move. Not sure your panel can handle a charger? We’ll check, and handle the <a style=\"color:#0b1f4b;text-decoration:underline;font-weight:600\" href=\"https://mvp-electric.com/panel-upgrades/\">panel upgrade</a> if you need one.</p>",
+       "editor": "<p>Ready to power up your electric vehicle with convenience? MVP Electric offers top-notch home EV charger installation and EV charging solutions for businesses. Whether you're looking to enhance your personal charging experience or provide charging stations for your customers, we provide fast, reliable setups that keep you on the move. Not sure your panel can handle a charger? We’ll check, and handle the <a style=\"color:#0b1f4b;text-decoration:underline;font-weight:600\" href=\"https://mvp-electric.com/panel-upgrades/\">panel upgrade</a> if you need one. Want to pick out your own charger? Browse chargers and accessories in our <a style=\"color:#0b1f4b;text-decoration:underline;font-weight:600\" href=\"https://mvp-electric.raiven.shop\" target=\"_blank\" rel=\"noopener\">online shop</a>. Your order ships to us, and we can install it for you.</p>",
        "_margin": {
         "unit": "%",
         "top": "0",
@@ -1393,6 +1393,76 @@
             "nofollow": "",
             "custom_attributes": ""
            }
+          },
+          "elements": [],
+          "widgetType": "button"
+         },
+         {
+          "id": "shopbtn",
+          "elType": "widget",
+          "settings": {
+           "text": "Shop EV Chargers",
+           "align": "center",
+           "hover_animation": "shrink",
+           "border_radius": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           },
+           "text_padding": {
+            "unit": "px",
+            "top": "18",
+            "right": "35",
+            "bottom": "18",
+            "left": "35",
+            "isLinked": false
+           },
+           "_margin": {
+            "unit": "px",
+            "top": "12",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+           },
+           "_margin_tablet": {
+            "unit": "%",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           },
+           "_margin_mobile": {
+            "unit": "%",
+            "top": "",
+            "right": "",
+            "bottom": "",
+            "left": "",
+            "isLinked": true
+           },
+           "_padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+           },
+           "__globals__": {
+            "typography_typography": "globals/typography?id=5966ff9"
+           },
+           "link": {
+            "url": "https://mvp-electric.raiven.shop",
+            "is_external": "on",
+            "nofollow": "",
+            "custom_attributes": ""
+           },
+           "background_color": "#FFFFFF",
+           "button_text_color": "#0B1F4B"
           },
           "elements": [],
           "widgetType": "button"

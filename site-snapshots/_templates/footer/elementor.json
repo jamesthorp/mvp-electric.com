@@ -281,7 +281,7 @@
           "library": "fa-solid"
          },
          "link": {
-          "url": "#",
+          "url": "https://mvp-electric.com/",
           "is_external": "",
           "nofollow": "",
           "custom_attributes": ""
@@ -318,6 +318,20 @@
           "custom_attributes": ""
          },
          "_id": "f06e387"
+        },
+        {
+         "text": "Shop EV Chargers",
+         "selected_icon": {
+          "value": "fas fa-arrow-right",
+          "library": "fa-solid"
+         },
+         "link": {
+          "url": "https://mvp-electric.raiven.shop",
+          "is_external": "on",
+          "nofollow": "",
+          "custom_attributes": ""
+         },
+         "_id": "shopft1"
         }
        ],
        "space_between": {

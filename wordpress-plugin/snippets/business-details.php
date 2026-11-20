@@ -47,6 +47,7 @@ add_action(
 - Phone / text: (503) 922-6873
 - Email: james@mvp-electric.com
 - [Request a free estimate](https://mvp-electric.com/contact-us/)
+- [Online shop: EV chargers and accessories](https://mvp-electric.raiven.shop): orders ship to MVP Electric, and installation is available
 - [Customer reviews](https://mvp-electric.com/reviews/)
 TXT;
 		exit;
