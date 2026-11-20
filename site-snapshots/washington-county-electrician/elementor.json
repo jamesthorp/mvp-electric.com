@@ -433,9 +433,9 @@
           "elType": "widget",
           "settings": {
            "image": {
-            "id": 61,
-            "url": "https://mvp-electric.com/wp-content/uploads/2024/09/residential.jpg",
-            "alt": "Electrician wiring an outlet",
+            "id": 878,
+            "url": "https://mvp-electric.com/wp-content/uploads/2026/11/panel-upgrade-beaverton-before.webp",
+            "alt": "Outdated electrical panel before replacement by MVP Electric in Beaverton, OR",
             "source": "library",
             "size": ""
            },
@@ -450,7 +450,9 @@
             "unit": "%",
             "size": 100,
             "sizes": []
-           }
+           },
+           "caption_source": "custom",
+           "caption": "Before: the old panel in a Beaverton home"
           },
           "elements": [],
           "widgetType": "image"
@@ -811,9 +813,9 @@
           "elType": "widget",
           "settings": {
            "image": {
-            "id": 58,
-            "url": "https://mvp-electric.com/wp-content/uploads/2024/09/commercial1.jpg",
-            "alt": "Electrician carrying electrical cable",
+            "id": 879,
+            "url": "https://mvp-electric.com/wp-content/uploads/2026/11/panel-upgrade-beaverton-after.webp",
+            "alt": "New electrical panel installed by MVP Electric in Beaverton, OR",
             "source": "library",
             "size": ""
            },
@@ -828,7 +830,9 @@
             "unit": "%",
             "size": 100,
             "sizes": []
-           }
+           },
+           "caption_source": "custom",
+           "caption": "After: new panel, permitted and inspected"
           },
           "elements": [],
           "widgetType": "image"
@@ -1021,7 +1025,7 @@
           "settings": {
            "icon_list": [
             {
-             "text": "Panel Upgrades in Beaverton: Several Beaverton homes upgraded to handle modern loads, permitted and inspected.",
+             "text": "Panel Upgrades in Beaverton: Several Beaverton homes upgraded to handle modern loads, permitted and inspected (before and after pictured).",
              "selected_icon": {
               "value": "icon icon-flash",
               "library": "ekiticons"

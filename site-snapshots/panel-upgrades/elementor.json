@@ -433,9 +433,9 @@
           "elType": "widget",
           "settings": {
            "image": {
-            "id": 858,
-            "url": "https://mvp-electric.com/wp-content/uploads/2026/10/franklin-battery-backup-solar-install.webp",
-            "alt": "Electrical meter, panel and battery backup equipment installed by MVP Electric in Portland, OR",
+            "id": 878,
+            "url": "https://mvp-electric.com/wp-content/uploads/2026/11/panel-upgrade-beaverton-before.webp",
+            "alt": "Outdated electrical panel before replacement by MVP Electric in Beaverton, OR",
             "source": "library",
             "size": ""
            },
@@ -450,7 +450,9 @@
             "unit": "%",
             "size": 100,
             "sizes": []
-           }
+           },
+           "caption_source": "custom",
+           "caption": "Before: the old panel in a Beaverton home"
           },
           "elements": [],
           "widgetType": "image"
@@ -745,9 +747,9 @@
           "elType": "widget",
           "settings": {
            "image": {
-            "id": 61,
-            "url": "https://mvp-electric.com/wp-content/uploads/2024/09/residential.jpg",
-            "alt": "Electrician wiring an electrical panel",
+            "id": 879,
+            "url": "https://mvp-electric.com/wp-content/uploads/2026/11/panel-upgrade-beaverton-after.webp",
+            "alt": "New electrical panel installed by MVP Electric in Beaverton, OR",
             "source": "library",
             "size": ""
            },
@@ -762,7 +764,9 @@
             "unit": "%",
             "size": 100,
             "sizes": []
-           }
+           },
+           "caption_source": "custom",
+           "caption": "After: new panel, permitted and inspected"
           },
           "elements": [],
           "widgetType": "image"
